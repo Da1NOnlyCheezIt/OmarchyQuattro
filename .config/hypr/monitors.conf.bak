@@ -1,0 +1,7 @@
+# >>> hyprmon:begin >>> (auto-generated — do not edit between markers)
+monitor=desc:ASUSTek COMPUTER INC VG27AQ1A,2560x1440@144.01,0x0,1
+monitor=desc:Hewlett Packard HP P221,1920x1080@60.00,2560x0,1.50
+
+# Fallback for unknown monitors
+monitor=,preferred,auto,1
+# <<< hyprmon:end <<<

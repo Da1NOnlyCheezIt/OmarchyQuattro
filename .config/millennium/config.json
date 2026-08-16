@@ -1,0 +1,49 @@
+{
+  "general": {
+    "accentColor": "#000000",
+    "checkForMillenniumUpdates": true,
+    "checkForPluginAndThemeUpdates": true,
+    "injectCSS": true,
+    "injectJavascript": true,
+    "millenniumUpdateChannel": "stable",
+    "onMillenniumUpdate": 1,
+    "shouldShowThemePluginUpdateNotifications": true
+  },
+  "misc": {
+    "hasShownWelcomeModal": true
+  },
+  "network": {
+    "proxy": "",
+    "proxyPassword": "",
+    "proxyUsername": ""
+  },
+  "notifications": {
+    "showNotifications": true,
+    "showPluginNotifications": true,
+    "showUpdateNotifications": true
+  },
+  "themes": {
+    "activeTheme": "default",
+    "allowedScripts": true,
+    "allowedStyles": true,
+    "themeColors": {
+      "AetherHooks": {
+        "--accent-color": "255, 0, 0",
+        "--background-color": "#ff0000",
+        "--button-color": "rgb(255, 0, 0)",
+        "--button-hover-color": "#ff3333",
+        "--system-accent": "#cba6f7",
+        "--system-bg": "#1e1e2e",
+        "--system-surface": "#313244",
+        "--system-text": "#cdd6f4",
+        "--virtualmenu-accent": "#ffffaa",
+        "--virtualmenu-bg": "#ffffaa",
+        "--virtualmenu-bg-hover": "#ffffaa",
+        "--virtualmenu-fg": "#ffffaa",
+        "--virtualmenupointer-color": "#1a9fff",
+        "background": "#ffffaa !important",
+        "color": "#ffffff !important"
+      }
+    }
+  }
+}

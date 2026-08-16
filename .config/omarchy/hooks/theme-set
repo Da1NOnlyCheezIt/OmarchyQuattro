@@ -1,0 +1,63 @@
+#!/bin/bash
+
+# Define system paths
+TOML_FILE="$HOME/.config/omarchy/themes/aether/colors.toml"
+TEMPLATE_CSS="$HOME/.config/millennium/quick.css.tpl"
+OUTPUT_CSS="$HOME/.config/millennium/quick.css"
+
+# Exit gracefully if files do not exist
+if [ ! -f "$TOML_FILE" ] || [ ! -f "$TEMPLATE_CSS" ]; then
+    exit 0
+fi
+
+# Ensure target directory exists
+mkdir -p "$(dirname "$OUTPUT_CSS")"
+
+# Declare a Bash dictionary to store keys and values
+declare -A colors
+
+# 1. Parse the TOML file directly using clean string splits
+while IFS= read -r line || [[ -n "$line" ]]; do
+    # Strip leading/trailing spaces
+    line=$(echo "$line" | xargs 2>/dev/null || echo "$line")
+    
+    # Skip comments and empty lines
+    [[ -z "$line" || "$line" == "#"* ]] && continue
+    
+    # Check for valid assignment line
+    if [[ "$line" == *"="* ]]; then
+        # Split on the first '=' symbol
+        key="${line%%=*}"
+        val="${line#*=}"
+        
+        # Trim whitespace
+        key=$(echo "$key" | xargs)
+        val=$(echo "$val" | xargs | tr -d '"' | tr -d "'")
+        
+        # Store in dictionary
+        if [[ -n "$key" && -n "$val" ]]; then
+            colors["$key"]="$val"
+        fi
+    fi
+done < "$TOML_FILE"
+
+# 2. Process the Template line-by-line and write directly to the output
+> "$OUTPUT_CSS" # Clear/create output file
+
+while IFS= read -r line || [[ -n "$line" ]]; do
+    # Search for any string pattern matching {{key}} and replace it natively
+    for key in "${!colors[@]}"; do
+        placeholder="{{${key}}}"
+        value="${colors[$key]}"
+        # Native Bash string substitution (avoids sed completely)
+        line="${line//$placeholder/$value}"
+    done
+    echo "$line" >> "$OUTPUT_CSS"
+done < "$TEMPLATE_CSS"
+
+
+pkill steam
+while pgrep -x steam > /dev/null; do
+    sleep 0.1;
+done
+steam
