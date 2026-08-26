@@ -2,256 +2,36 @@
 <patchbay name="default" version="1.0.3">
  <items>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
-   <input node="Downmix Source" port="Downmix Source:input_FR"/>
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
+   <input node="VAIO Hearing Out" port="VAIO Hearing Out:input_FR"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spotify/spotify" port="spotify:output_FL"/>
-   <input node="VAIO Headset Mic + Spotify" port="VAIO Headset Mic + Spotify:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium-2" port="Chromium:output_FR"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Downmix Source" port="Downmix Source:monitor_MONO"/>
+   <output node="VAIO Desktop Mic's - Spotify" port="VAIO Desktop Mic's - Spotify:monitor_1"/>
    <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Spotify/spotify" port="spotify:output_FR"/>
-   <input node="VAIO Desktop Mic Setup" port="VAIO Desktop Mic Setup:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
-   <input node="VAIO Mic + Spotify" port="VAIO Mic + Spotify:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium" port="Chromium:output_FR"/>
-   <input node="VAIO Hearing In-1" port="VAIO Hearing In:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spotify/spotify" port="spotify:output_FR"/>
-   <input node="VAIO Hearing In-1" port="VAIO Hearing In:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
-   <input node="VAIO Desktop Mic Setup" port="VAIO Desktop Mic Setup:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
-   <input node="VAIO Desktop Mic - Spotify" port="VAIO Desktop Mic - Spotify:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
-   <input node="VAIO Hearing In-1" port="VAIO Hearing In:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Downmix Source" port="Downmix Source:capture_2"/>
-   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Game Sound" port="VAIO Game Sound:monitor_2"/>
-   <input node="OBS-3" port="OBS:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Hearing In" port="VAIO Hearing In:capture_2"/>
-   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FR"/>
+   <input node="VAIO Hearing Out" port="VAIO Hearing Out:input_FR"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
-   <input node="VAIO Desktop Mic - Spotify-1" port="VAIO Desktop Mic - Spotify:playback_1"/>
+   <input node="Downmix Source" port="Downmix Source:playback_1"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Hearing In" port="VAIO Hearing In:capture_2"/>
-   <input node="OBS" port="OBS:input_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Desktop Mic Setup" port="VAIO Desktop Mic Setup:capture_1"/>
-   <input node="VRChat.exe" port="VRChat.exe:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
-   <input node="VAIO Desktop Mic - Spotify-1" port="VAIO Desktop Mic - Spotify:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
-   <input node="VAIO Desktop Mic - Spotify-1" port="VAIO Desktop Mic - Spotify:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Meccha Chameleon" port="Meccha Chameleon:output_FL"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spotify/spotify" port="spotify:output_FL"/>
-   <input node="Hearing Out" port="Hearing Out:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium-1" port="Chromium:output_FR"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
-   <input node="VAIO Desktop Mic Setup-1" port="VAIO Desktop Mic Setup:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
-   <input node="VAIO Desktop Mic Setup-1" port="VAIO Desktop Mic Setup:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Desktop Mic - Spotify" port="VAIO Desktop Mic - Spotify:capture_2"/>
-   <input node="OBS-1" port="OBS:input_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spotify/spotify" port="spotify:output_FL"/>
-   <input node="VAIO Desktop Mic Setup-1" port="VAIO Desktop Mic Setup:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
-   <input node="Hearing Out" port="Hearing Out:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium" port="Chromium:output_FL"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
-   <input node="Hearing Out" port="Hearing Out:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Hearing In-1" port="VAIO Hearing In:capture_1"/>
-   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium" port="Chromium:output_FL"/>
-   <input node="VAIO Hearing In-1" port="VAIO Hearing In:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium-2" port="Chromium:output_FL"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
-   <input node="VAIO Desktop" port="VAIO Desktop:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
-   <input node="VAIO Desktop" port="VAIO Desktop:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
-   <input node="VAIO Hearing In - Spotify-1" port="VAIO Hearing In - Spotify:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
-   <input node="VAIO Hearing In-1" port="VAIO Hearing In:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Desktop Mic's - Spotify" port="VAIO Desktop Mic's - Spotify:monitor_2"/>
-   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Game Sound" port="VAIO Game Sound:monitor_1"/>
-   <input node="OBS-3" port="OBS:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Hearing Out" port="Hearing Out:monitor_FR"/>
-   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spotify/spotify" port="spotify:output_FL"/>
-   <input node="VAIO Hearing In-1" port="VAIO Hearing In:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Desktop Mic - Spotify" port="VAIO Desktop Mic - Spotify:capture_1"/>
-   <input node="OBS-1" port="OBS:input_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
-   <input node="VAIO Desktop" port="VAIO Desktop:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
-   <input node="VAIO Desktop - Spotify" port="VAIO Desktop - Spotify:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spotify/spotify" port="spotify:output_FR"/>
-   <input node="VAIO Desktop - Spotify" port="VAIO Desktop - Spotify:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spotify/spotify" port="spotify:output_FR"/>
-   <input node="Hearing Out" port="Hearing Out:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Hearing Out" port="VAIO Hearing Out:monitor_FR"/>
-   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
-   <input node="Hearing Out" port="Hearing Out:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spotify/spotify" port="spotify:output_FL"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
-   <input node="VAIO Desktop Mic Setup-1" port="VAIO Desktop Mic Setup:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium" port="Chromium:output_FL"/>
-   <input node="OBS-2" port="OBS:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
-   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Hearing Out" port="Hearing Out:monitor_MONO"/>
-   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spotify/spotify" port="spotify:output_FL"/>
-   <input node="VAIO Desktop - Spotify" port="VAIO Desktop - Spotify:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VRChat.exe" port="VRChat.exe:output_FR"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
+   <output node="VAIO Desktop Mic Setup" port="VAIO Desktop Mic Setup:monitor_2"/>
+   <input node="deadlock.exe" port="deadlock.exe:input_FR"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="VAIO Hearing In" port="VAIO Hearing In:monitor_1"/>
-   <input node="discord_capture" port="discord_capture:input_FL"/>
+   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
-   <input node="VAIO Desktop - Spotify" port="VAIO Desktop - Spotify:input_FL"/>
+   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_2"/>
+   <input node="OBS-2" port="OBS:input_FR"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Desktop Mic - Spotify" port="VAIO Desktop Mic - Spotify:capture_1"/>
-   <input node="deadlock.exe" port="deadlock.exe:input_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
-   <input node="VAIO Desktop - Spotify" port="VAIO Desktop - Spotify:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Meccha Chameleon" port="Meccha Chameleon:output_FR"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
-   <input node="VAIO Desktop Mic's - Spotify" port="VAIO Desktop Mic's - Spotify:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spotify/spotify" port="spotify:output_FR"/>
-   <input node="VAIO Desktop Mic's - Spotify" port="VAIO Desktop Mic's - Spotify:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
-   <input node="VAIO Desktop" port="VAIO Desktop:input_FR"/>
+   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_1"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Downmix Source" port="Downmix Source:monitor_MONO"/>
@@ -274,6 +54,14 @@
    <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
+   <input node="VAIO Desktop" port="VAIO Desktop:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
+   <input node="Hearing Out" port="Hearing Out:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
    <input node="VAIO Desktop - Spotify" port="VAIO Desktop - Spotify:input_FR"/>
   </item>
@@ -282,52 +70,32 @@
    <input node="VAIO Hearing Out" port="VAIO Hearing Out:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
-   <input node="Hearing Out" port="Hearing Out:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
-   <input node="Downmix Source" port="Downmix Source:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Desktop Mic Setup" port="VAIO Desktop Mic Setup:monitor_2"/>
-   <input node="deadlock.exe" port="deadlock.exe:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
-   <input node="VAIO Hearing Out" port="VAIO Hearing Out:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Desktop Mic's - Spotify" port="VAIO Desktop Mic's - Spotify:monitor_1"/>
-   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spotify/spotify" port="spotify:output_FR"/>
-   <input node="VAIO Hearing Out" port="VAIO Hearing Out:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Hearing In" port="VAIO Hearing In:monitor_1"/>
-   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_2"/>
-   <input node="OBS-2" port="OBS:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_1"/>
+   <output node="VRChat.exe" port="VRChat.exe:output_FL"/>
    <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Mic + Spotify" port="VAIO Mic + Spotify:monitor_2"/>
-   <input node="VRChat.exe" port="VRChat.exe:input_2"/>
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
+   <input node="VAIO Desktop Mic Setup-1" port="VAIO Desktop Mic Setup:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spotify/spotify" port="spotify:output_FR"/>
+   <input node="VAIO Desktop Mic Setup-1" port="VAIO Desktop Mic Setup:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_2"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
+   <input node="Downmix Source" port="Downmix Source:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="falloutwHR.exe" port="falloutwHR.exe:output_FR"/>
    <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Mic + Spotify" port="VAIO Mic + Spotify:monitor_1"/>
-   <input node="VRChat.exe" port="VRChat.exe:input_1"/>
+   <output node="VAIO Mic + Spotify" port="VAIO Mic + Spotify:monitor_2"/>
+   <input node="VRChat.exe" port="VRChat.exe:input_2"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="VAIO Desktop Mic Setup" port="VAIO Desktop Mic Setup:capture_2"/>
@@ -338,32 +106,52 @@
    <input node="deadlock.exe" port="deadlock.exe:input_2"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
-   <input node="VAIO Desktop Mic Setup-1" port="VAIO Desktop Mic Setup:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spotify/spotify" port="spotify:output_FR"/>
-   <input node="VAIO Desktop Mic Setup-1" port="VAIO Desktop Mic Setup:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VRChat.exe" port="VRChat.exe:output_FL"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
+   <output node="VAIO Mic + Spotify" port="VAIO Mic + Spotify:monitor_1"/>
+   <input node="VRChat.exe" port="VRChat.exe:input_1"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
-   <input node="Downmix Source" port="Downmix Source:input_FL"/>
+   <input node="VAIO Desktop Mic - Spotify" port="VAIO Desktop Mic - Spotify:playback_1"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_2"/>
+   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
+   <input node="VAIO Mic + Spotify" port="VAIO Mic + Spotify:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="VAIO Hearing In" port="VAIO Hearing In:monitor_2"/>
+   <input node="discord_capture" port="discord_capture:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
+   <input node="VAIO Desktop Mic - Spotify" port="VAIO Desktop Mic - Spotify:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="deadlock.exe" port="deadlock.exe:output_FR"/>
    <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spotify/spotify" port="spotify:output_FL"/>
-   <input node="VAIO Desktop Mic Setup" port="VAIO Desktop Mic Setup:playback_1"/>
+   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
+   <input node="VAIO Desktop Mic Setup" port="VAIO Desktop Mic Setup:playback_2"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
-   <input node="VAIO Desktop Mic - Spotify" port="VAIO Desktop Mic - Spotify:playback_2"/>
+   <output node="Spotify/spotify" port="spotify:output_FR"/>
+   <input node="VAIO Mic + Spotify" port="VAIO Mic + Spotify:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_1"/>
+   <input node="OBS-2" port="OBS:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="VAIO Hearing In" port="VAIO Hearing In:capture_1"/>
+   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spotify/spotify" port="spotify:output_FL"/>
+   <input node="VAIO Mic + Spotify" port="VAIO Mic + Spotify:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="SDL Application" port="SDL Application:output_FL"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="VAIO Hearing In" port="VAIO Hearing In:monitor_2"/>
@@ -378,20 +166,12 @@
    <input node="VAIO Desktop Mic's - Spotify" port="VAIO Desktop Mic's - Spotify:playback_1"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Hearing In-1" port="VAIO Hearing In:monitor_2"/>
-   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FR"/>
+   <output node="Spotify/spotify" port="spotify:output_FL"/>
+   <input node="VAIO Desktop Mic Setup" port="VAIO Desktop Mic Setup:playback_1"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
-   <input node="VAIO Desktop Mic - Spotify-1" port="VAIO Desktop Mic - Spotify:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="deadlock.exe" port="deadlock.exe:output_FL"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
-   <input node="VAIO Desktop Mic's - Spotify" port="VAIO Desktop Mic's - Spotify:playback_1"/>
+   <input node="VAIO Desktop Mic - Spotify" port="VAIO Desktop Mic - Spotify:playback_2"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
@@ -418,76 +198,20 @@
    <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="deadlock.exe" port="deadlock.exe:output_FR"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
+   <output node="VAIO Hearing In-1" port="VAIO Hearing In:monitor_2"/>
+   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FR"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
-   <input node="VAIO Desktop Mic - Spotify" port="VAIO Desktop Mic - Spotify:playback_1"/>
+   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
+   <input node="VAIO Desktop Mic - Spotify-1" port="VAIO Desktop Mic - Spotify:playback_2"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
-   <input node="VAIO Mic + Spotify" port="VAIO Mic + Spotify:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Hearing In" port="VAIO Hearing In:monitor_2"/>
-   <input node="discord_capture" port="discord_capture:input_FR"/>
+   <output node="deadlock.exe" port="deadlock.exe:output_FL"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
-   <input node="VAIO Desktop Mic - Spotify" port="VAIO Desktop Mic - Spotify:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Hearing In" port="VAIO Hearing In:capture_1"/>
-   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spotify/spotify" port="spotify:output_FL"/>
-   <input node="VAIO Mic + Spotify" port="VAIO Mic + Spotify:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="SDL Application" port="SDL Application:output_FL"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
-   <input node="VAIO Desktop Mic Setup" port="VAIO Desktop Mic Setup:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Spotify/spotify" port="spotify:output_FR"/>
-   <input node="VAIO Mic + Spotify" port="VAIO Mic + Spotify:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_1"/>
-   <input node="OBS-2" port="OBS:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Hearing Out" port="Hearing Out:monitor_MONO"/>
-   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="FALLOUTW.EXE" port="FALLOUTW.EXE:output_FR"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
-   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Desktop Mic - Spotify" port="VAIO Desktop Mic - Spotify:capture_2"/>
-   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium-1" port="Chromium:output_1"/>
-   <input node="VAIO Hearing In-1" port="VAIO Hearing In:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium" port="Chromium:output_FR"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="falloutwHR.exe" port="falloutwHR.exe:output_FL"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
+   <input node="VAIO Desktop Mic's - Spotify" port="VAIO Desktop Mic's - Spotify:playback_1"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
@@ -500,6 +224,22 @@
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
    <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="falloutwHR.exe" port="falloutwHR.exe:output_FL"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-1" port="Chromium:output_2"/>
+   <input node="VAIO Hearing In-1" port="VAIO Hearing In:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="VAIO Hearing In-1" port="VAIO Hearing In:capture_2"/>
+   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="FALLOUTW.EXE" port="FALLOUTW.EXE:output_FL"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="VAIO Desktop Mic Setup" port="VAIO Desktop Mic Setup:monitor_1"/>
@@ -518,16 +258,284 @@
    <input node="VAIO Headset Mic + Spotify" port="VAIO Headset Mic + Spotify:playback_2"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium-1" port="Chromium:output_2"/>
+   <output node="VAIO Desktop Mic - Spotify" port="VAIO Desktop Mic - Spotify:capture_2"/>
+   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-1" port="Chromium:output_1"/>
+   <input node="VAIO Hearing In-1" port="VAIO Hearing In:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Hearing Out" port="Hearing Out:monitor_MONO"/>
+   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="FALLOUTW.EXE" port="FALLOUTW.EXE:output_FR"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
+   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FR"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
+   <input node="VAIO Desktop Mic - Spotify-1" port="VAIO Desktop Mic - Spotify:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="VAIO Hearing In" port="VAIO Hearing In:capture_2"/>
+   <input node="OBS" port="OBS:input_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="VAIO Desktop Mic Setup" port="VAIO Desktop Mic Setup:capture_1"/>
+   <input node="VRChat.exe" port="VRChat.exe:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
+   <input node="VAIO Desktop Mic - Spotify-1" port="VAIO Desktop Mic - Spotify:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spotify/spotify" port="spotify:output_FR"/>
    <input node="VAIO Hearing In-1" port="VAIO Hearing In:playback_2"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="VAIO Hearing In-1" port="VAIO Hearing In:capture_2"/>
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
+   <input node="VAIO Desktop Mic - Spotify" port="VAIO Desktop Mic - Spotify:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
+   <input node="VAIO Hearing In-1" port="VAIO Hearing In:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Downmix Source" port="Downmix Source:capture_2"/>
    <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FR"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="FALLOUTW.EXE" port="FALLOUTW.EXE:output_FL"/>
+   <output node="VAIO Game Sound" port="VAIO Game Sound:monitor_2"/>
+   <input node="OBS-3" port="OBS:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="VAIO Hearing In" port="VAIO Hearing In:capture_2"/>
+   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Meccha Chameleon" port="Meccha Chameleon:output_FL"/>
    <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
+   <input node="VAIO Desktop Mic - Spotify-1" port="VAIO Desktop Mic - Spotify:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spotify/spotify" port="spotify:output_FL"/>
+   <input node="VAIO Headset Mic + Spotify" port="VAIO Headset Mic + Spotify:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-2" port="Chromium:output_FR"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
+   <input node="Downmix Source" port="Downmix Source:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spotify/spotify" port="spotify:output_FR"/>
+   <input node="VAIO Desktop Mic Setup" port="VAIO Desktop Mic Setup:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
+   <input node="VAIO Mic + Spotify" port="VAIO Mic + Spotify:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FR"/>
+   <input node="VAIO Hearing In-1" port="VAIO Hearing In:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Downmix Source" port="Downmix Source:monitor_MONO"/>
+   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
+   <input node="VAIO Desktop Mic Setup" port="VAIO Desktop Mic Setup:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="VAIO Hearing In-1" port="VAIO Hearing In:capture_1"/>
+   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FL"/>
+   <input node="VAIO Hearing In-1" port="VAIO Hearing In:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-2" port="Chromium:output_FL"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium-1" port="Chromium:output_FR"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
+   <input node="VAIO Desktop Mic Setup-1" port="VAIO Desktop Mic Setup:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
+   <input node="VAIO Desktop Mic Setup-1" port="VAIO Desktop Mic Setup:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spotify/spotify" port="spotify:output_FL"/>
+   <input node="Hearing Out" port="Hearing Out:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
+   <input node="Hearing Out" port="Hearing Out:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FL"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
+   <input node="Hearing Out" port="Hearing Out:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spotify/spotify" port="spotify:output_FL"/>
+   <input node="VAIO Desktop Mic Setup-1" port="VAIO Desktop Mic Setup:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="VAIO Desktop Mic - Spotify" port="VAIO Desktop Mic - Spotify:capture_2"/>
+   <input node="OBS-1" port="OBS:input_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="VAIO Desktop Mic - Spotify" port="VAIO Desktop Mic - Spotify:capture_1"/>
+   <input node="OBS-1" port="OBS:input_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
+   <input node="VAIO Desktop" port="VAIO Desktop:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spotify/spotify" port="spotify:output_FR"/>
+   <input node="Hearing Out" port="Hearing Out:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="VAIO Hearing Out" port="VAIO Hearing Out:monitor_FR"/>
+   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
+   <input node="Hearing Out" port="Hearing Out:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spotify/spotify" port="spotify:output_FL"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Terraria.bin.x86_64" port="Terraria.bin.x86_64:output_FR"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
+   <input node="VAIO Desktop - Spotify" port="VAIO Desktop - Spotify:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spotify/spotify" port="spotify:output_FR"/>
+   <input node="VAIO Desktop - Spotify" port="VAIO Desktop - Spotify:input_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="VAIO Desktop Mic's - Spotify" port="VAIO Desktop Mic's - Spotify:monitor_2"/>
+   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="VAIO Game Sound" port="VAIO Game Sound:monitor_1"/>
+   <input node="OBS-3" port="OBS:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Terraria.bin.x86_64" port="Terraria.bin.x86_64:output_FL"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
+   <input node="VAIO Desktop" port="VAIO Desktop:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
+   <input node="VAIO Desktop" port="VAIO Desktop:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
+   <input node="VAIO Hearing In - Spotify-1" port="VAIO Hearing In - Spotify:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
+   <input node="VAIO Hearing In-1" port="VAIO Hearing In:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spotify/spotify" port="spotify:output_FL"/>
+   <input node="VAIO Hearing In-1" port="VAIO Hearing In:playback_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Hearing Out" port="Hearing Out:monitor_FR"/>
+   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spotify/spotify" port="spotify:output_FL"/>
+   <input node="VAIO Desktop - Spotify" port="VAIO Desktop - Spotify:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="VRChat.exe" port="VRChat.exe:output_FR"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Meccha Chameleon" port="Meccha Chameleon:output_FR"/>
+   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
+   <input node="VAIO Desktop Mic's - Spotify" port="VAIO Desktop Mic's - Spotify:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spotify/spotify" port="spotify:output_FR"/>
+   <input node="VAIO Desktop Mic's - Spotify" port="VAIO Desktop Mic's - Spotify:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="VAIO Hearing In" port="VAIO Hearing In:monitor_1"/>
+   <input node="discord_capture" port="discord_capture:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
+   <input node="VAIO Desktop - Spotify" port="VAIO Desktop - Spotify:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="VAIO Desktop Mic - Spotify" port="VAIO Desktop Mic - Spotify:capture_1"/>
+   <input node="deadlock.exe" port="deadlock.exe:input_1"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
+   <input node="VAIO Desktop - Spotify" port="VAIO Desktop - Spotify:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FR"/>
+   <input node="VAIO Desktop Mic Setup-1" port="VAIO Desktop Mic Setup:playback_2"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
+   <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Hearing Out" port="Hearing Out:monitor_MONO"/>
+   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Chromium" port="Chromium:output_FL"/>
+   <input node="OBS-2" port="OBS:input_FL"/>
   </item>
  </items>
 </patchbay>

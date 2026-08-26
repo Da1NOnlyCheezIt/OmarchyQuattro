@@ -19,12 +19,12 @@ return {
 
         red        = "#a79652",
         yellow     = "#ecfd95",
-        orange     = "#b4a66c",
+        orange     = "#f76518",
         green      = "#b4cf7e",
         cyan       = "#acf094",
         blue       = "#489267",
         purple     = "#d4a34b",
-        brown      = "#6c6441",
+        brown      = "#4a2000",
 
         bright_red    = "#c1ab54",
         bright_yellow = "#ebff79",

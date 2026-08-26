@@ -231,7 +231,9 @@
             "uuid": "48a93f55-3f12-4403-b9a9-085ad54128f0",
             "id": "pulse_output_capture",
             "versioned_id": "pulse_output_capture",
-            "settings": {},
+            "settings": {
+                "device_id": "VAIO Game Sound.monitor"
+            },
             "mixers": 255,
             "sync": 0,
             "flags": 0,

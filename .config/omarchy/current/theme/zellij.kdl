@@ -3,7 +3,7 @@ themes {
         text_unselected {
             base 239 240 0
             background 97 100 94
-            emphasis_0 180 166 108
+            emphasis_0 247 101 24
             emphasis_1 183 255 152
             emphasis_2 199 233 125
             emphasis_3 245 182 59
@@ -11,7 +11,7 @@ themes {
         text_selected {
             base 239 240 0
             background 97 100 94
-            emphasis_0 180 166 108
+            emphasis_0 247 101 24
             emphasis_1 183 255 152
             emphasis_2 199 233 125
             emphasis_3 245 182 59
@@ -20,7 +20,7 @@ themes {
             base 97 100 94
             background 199 233 125
             emphasis_0 193 171 84
-            emphasis_1 180 166 108
+            emphasis_1 247 101 24
             emphasis_2 245 182 59
             emphasis_3 77 171 118
         }
@@ -35,7 +35,7 @@ themes {
         table_title {
             base 199 233 125
             background 0
-            emphasis_0 180 166 108
+            emphasis_0 247 101 24
             emphasis_1 183 255 152
             emphasis_2 199 233 125
             emphasis_3 245 182 59
@@ -43,7 +43,7 @@ themes {
         table_cell_selected {
             base 239 240 0
             background 97 100 94
-            emphasis_0 180 166 108
+            emphasis_0 247 101 24
             emphasis_1 183 255 152
             emphasis_2 199 233 125
             emphasis_3 245 182 59
@@ -51,7 +51,7 @@ themes {
         table_cell_unselected {
             base 239 240 0
             background 97 100 94
-            emphasis_0 180 166 108
+            emphasis_0 247 101 24
             emphasis_1 183 255 152
             emphasis_2 199 233 125
             emphasis_3 245 182 59
@@ -59,7 +59,7 @@ themes {
         list_selected {
             base 239 240 0
             background 97 100 94
-            emphasis_0 180 166 108
+            emphasis_0 247 101 24
             emphasis_1 183 255 152
             emphasis_2 199 233 125
             emphasis_3 245 182 59
@@ -67,7 +67,7 @@ themes {
         list_unselected {
             base 239 240 0
             background 97 100 94
-            emphasis_0 180 166 108
+            emphasis_0 247 101 24
             emphasis_1 183 255 152
             emphasis_2 199 233 125
             emphasis_3 245 182 59
@@ -75,18 +75,18 @@ themes {
         frame_selected {
             base 199 233 125
             background 0
-            emphasis_0 180 166 108
+            emphasis_0 247 101 24
             emphasis_1 183 255 152
             emphasis_2 245 182 59
             emphasis_3 0
         }
         frame_highlight {
-            base 180 166 108
+            base 247 101 24
             background 0
             emphasis_0 245 182 59
-            emphasis_1 180 166 108
-            emphasis_2 180 166 108
-            emphasis_3 180 166 108
+            emphasis_1 247 101 24
+            emphasis_2 247 101 24
+            emphasis_3 247 101 24
         }
         exit_code_success {
             base 199 233 125

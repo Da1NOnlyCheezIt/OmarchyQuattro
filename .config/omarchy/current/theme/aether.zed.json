@@ -142,9 +142,9 @@
         "info.background": "#48926715",
         "info.border": "#489267",
 
-        "modified": "#b4a66c",
-        "modified.background": "#b4a66c15",
-        "modified.border": "#b4a66c",
+        "modified": "#f76518",
+        "modified.background": "#f7651815",
+        "modified.border": "#f76518",
 
         "predictive": "#61645e",
         "predictive.background": "#61645e15",
@@ -216,7 +216,7 @@
             "font_weight": null
           },
           "boolean": {
-            "color": "#b4a66c",
+            "color": "#f76518",
             "font_style": null,
             "font_weight": null
           },
@@ -311,7 +311,7 @@
             "font_weight": null
           },
           "number": {
-            "color": "#b4a66c",
+            "color": "#f76518",
             "font_style": null,
             "font_weight": null
           },
@@ -446,7 +446,7 @@
             "font_weight": null
           },
           "variant": {
-            "color": "#b4a66c",
+            "color": "#f76518",
             "font_style": null,
             "font_weight": null
           }
