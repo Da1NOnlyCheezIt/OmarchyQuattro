@@ -1,7 +1,7 @@
 {
     "name": "Untitled",
     "DesktopAudioDevice1": {
-        "prev_ver": 536936450,
+        "prev_ver": 537001986,
         "name": "Desktop Audio",
         "uuid": "d7db5794-8903-48e8-82bf-073dce0847e5",
         "id": "pulse_output_capture",
@@ -32,7 +32,7 @@
         "private_settings": {},
         "filters": [
             {
-                "prev_ver": 536936450,
+                "prev_ver": 537001986,
                 "name": "Limiter",
                 "uuid": "1c975947-974f-4bd9-94a1-ddcef54dc0bd",
                 "id": "limiter_filter",
@@ -60,7 +60,7 @@
         ]
     },
     "AuxAudioDevice1": {
-        "prev_ver": 536936450,
+        "prev_ver": 537001986,
         "name": "Mic/Aux",
         "uuid": "c79262d1-33a0-4acf-9ef2-19042866b698",
         "id": "pulse_input_capture",
@@ -91,7 +91,7 @@
         "private_settings": {},
         "filters": [
             {
-                "prev_ver": 536936450,
+                "prev_ver": 537001986,
                 "name": "Noise Gate",
                 "uuid": "31a3c1dc-f362-4300-8560-71295d941b26",
                 "id": "noise_gate_filter",
@@ -118,7 +118,7 @@
                 "private_settings": {}
             },
             {
-                "prev_ver": 536936450,
+                "prev_ver": 537001986,
                 "name": "Compressor",
                 "uuid": "8912bb6f-b980-4105-bbe9-de859217a0d2",
                 "id": "compressor_filter",
@@ -142,7 +142,7 @@
                 "private_settings": {}
             },
             {
-                "prev_ver": 536936450,
+                "prev_ver": 537001986,
                 "name": "Limiter",
                 "uuid": "901aa5b3-1541-4b0b-b090-c02f2f924dcb",
                 "id": "limiter_filter",
@@ -171,13 +171,13 @@
     },
     "sources": [
         {
-            "prev_ver": 536936450,
+            "prev_ver": 537001986,
             "name": "Screen Capture (PipeWire)",
             "uuid": "53870a0c-663d-4cca-9559-42f453c1a742",
             "id": "pipewire-screen-capture-source",
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
-                "RestoreToken": "lcIlKFxRpBQb5zzRDyGd9g"
+                "RestoreToken": ""
             },
             "mixers": 0,
             "sync": 0,
@@ -197,7 +197,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 537001986,
             "name": "Discord",
             "uuid": "49178658-2226-4c70-a8d3-251c5c18c534",
             "id": "pulse_output_capture",
@@ -226,9 +226,9 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 537001986,
             "name": "Games",
-            "uuid": "48a93f55-3f12-4403-b9a9-085ad54128f0",
+            "uuid": "b8963795-3d37-47ff-9883-6b65b94b7935",
             "id": "pulse_output_capture",
             "versioned_id": "pulse_output_capture",
             "settings": {
@@ -257,13 +257,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 537001986,
             "name": "Scene",
             "uuid": "b5bca49f-7ba6-436f-8825-c53ea5bf9a85",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 7,
+                "id_counter": 10,
                 "custom_size": false,
                 "items": [
                     {
@@ -433,7 +433,7 @@
                     },
                     {
                         "name": "Games",
-                        "source_uuid": "48a93f55-3f12-4403-b9a9-085ad54128f0",
+                        "source_uuid": "b8963795-3d37-47ff-9883-6b65b94b7935",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -449,7 +449,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 7,
+                        "id": 9,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
@@ -507,8 +507,8 @@
                 "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.6": [],
                 "libobs.hide_scene_item.6": [],
-                "libobs.show_scene_item.7": [],
-                "libobs.hide_scene_item.7": []
+                "libobs.show_scene_item.9": [],
+                "libobs.hide_scene_item.9": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -555,7 +555,7 @@
     "saved_projectors": [],
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -13,
+    "scaling_level": -50,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "modules": {
