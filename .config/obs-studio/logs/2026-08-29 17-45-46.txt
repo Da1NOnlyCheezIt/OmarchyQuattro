@@ -1,0 +1,336 @@
+17:45:46.337: Platform: Wayland
+17:45:46.337: CPU Name: 13th Gen Intel(R) Core(TM) i7-13700KF
+17:45:46.337: CPU Speed: 5118.285MHz
+17:45:46.337: Physical Cores: 16, Logical Cores: 24
+17:45:46.337: Physical Memory: 31895MB Total, 1319MB Free
+17:45:46.337: Kernel Version: Linux 7.1.9-arch1-2
+17:45:46.337: Distribution: "Omarchy" "4.0.1"
+17:45:46.337: Desktop Environment: Hyprland (Hyprland)
+17:45:46.337: Session Type: wayland
+17:45:46.338: Current Date/Time: 2026-08-29, 05:45:46 PM
+17:45:46.338: Browser Hardware Acceleration: true
+17:45:46.338: Qt Version: 6.11.2 (runtime), 6.11.1 (compiled)
+17:45:46.338: Portable mode: false
+17:45:46.358: OBS 32.2.2 (linux)
+17:45:46.358: ---------------------------------
+17:45:46.359: ---------------------------------
+17:45:46.359: audio settings reset:
+17:45:46.359: 	samples per sec: 48000
+17:45:46.359: 	speakers:        2
+17:45:46.359: 	max buffering:   960 milliseconds
+17:45:46.359: 	buffering type:  dynamically increasing
+17:45:46.360: ---------------------------------
+17:45:46.360: Initializing OpenGL...
+17:45:46.360: Using EGL/Wayland
+17:45:46.392: Initialized EGL 1.5
+17:45:46.445: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3080/PCIe/SSE2
+17:45:46.445: OpenGL loaded successfully, version 3.3.0 NVIDIA 610.57.04, shading language 3.30 NVIDIA via Cg compiler
+17:45:46.469: ---------------------------------
+17:45:46.469: video settings reset:
+17:45:46.469: 	base resolution:   2560x1440
+17:45:46.469: 	output resolution: 1920x1080
+17:45:46.469: 	downscale filter:  Bicubic
+17:45:46.469: 	fps:               30/1
+17:45:46.469: 	format:            NV12
+17:45:46.469: 	YUV mode:          Rec. 709/Partial
+17:45:46.469: NV12 texture support enabled
+17:45:46.469: P010 texture support not available
+17:45:46.469: Audio monitoring device:
+17:45:46.469: 	name: Default
+17:45:46.469: 	id: default
+17:45:46.501: ---------------------------------
+17:45:46.502: Failed to load 'en-US' text for module: 'decklink-captions.so'
+17:45:46.504: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+17:45:46.505: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+17:45:46.505: Failed to initialize module 'decklink.so'
+17:45:46.586: [pipewire] Available capture sources:
+17:45:46.586: [pipewire]     - Monitor source
+17:45:46.586: [pipewire]     - Window source
+17:45:46.592: v4l2loopback not installed, virtual camera not registered
+17:45:46.637: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+17:45:46.886: VAAPI: API version 1.24
+17:45:46.957: FFmpeg VAAPI H264 encoding not supported
+17:45:47.265: FFmpeg VAAPI AV1 encoding not supported
+17:45:47.561: FFmpeg VAAPI HEVC encoding not supported
+17:45:47.783: [obs-nvenc] NVENC version: 13.1 (compiled) / 13.1 (driver), CUDA driver version: 13.30, AV1 supported: false
+17:45:48.721: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.4 | RPC Version: 1)
+17:45:48.721: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.11.1 | Qt version (run-time): 6.11.2
+17:45:48.721: [obs-websocket] [obs_module_load] Linked ASIO Version: 103802
+17:45:48.725: [obs-websocket] [obs_module_load] Module loaded.
+17:45:48.729: ---------------------------------
+17:45:48.729:   Loaded Modules:
+17:45:48.729:     text-freetype2.so
+17:45:48.729:     rtmp-services.so
+17:45:48.729:     obs-x264.so
+17:45:48.729:     obs-websocket.so
+17:45:48.729:     obs-webrtc.so
+17:45:48.729:     obs-vst.so
+17:45:48.729:     obs-transitions.so
+17:45:48.729:     obs-qsv11.so
+17:45:48.729:     obs-outputs.so
+17:45:48.729:     obs-nvenc.so
+17:45:48.729:     obs-libfdk.so
+17:45:48.729:     obs-filters.so
+17:45:48.729:     obs-ffmpeg.so
+17:45:48.729:     linux-v4l2.so
+17:45:48.730:     linux-pulseaudio.so
+17:45:48.730:     linux-pipewire.so
+17:45:48.730:     linux-jack.so
+17:45:48.730:     linux-capture.so
+17:45:48.730:     linux-alsa.so
+17:45:48.730:     image-source.so
+17:45:48.730:     frontend-tools.so
+17:45:48.730:     decklink-output-ui.so
+17:45:48.730:     decklink-captions.so
+17:45:48.730: ---------------------------------
+17:45:48.730: ---------------------------------
+17:45:48.730: Available Encoders:
+17:45:48.730:   Video Encoders:
+17:45:48.730: 	- ffmpeg_svt_av1 (SVT-AV1)
+17:45:48.730: 	- ffmpeg_aom_av1 (AOM AV1)
+17:45:48.730: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+17:45:48.730: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+17:45:48.730: 	- obs_x264 (x264)
+17:45:48.730:   Audio Encoders:
+17:45:48.730: 	- ffmpeg_aac (FFmpeg AAC)
+17:45:48.730: 	- ffmpeg_opus (FFmpeg Opus)
+17:45:48.730: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+17:45:48.730: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+17:45:48.730: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+17:45:48.730: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+17:45:48.730: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+17:45:48.730: 	- libfdk_aac (libfdk AAC)
+17:45:48.730: ==== Startup complete ===============================================
+17:45:48.770: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+17:45:48.770: All scene data cleared
+17:45:48.770: ------------------------------------------------
+17:45:48.775: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:45:48.775: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+17:45:48.775: pulse-input: Started recording from 'VAIO Hearing In.monitor'
+17:45:48.775: [Loaded global audio device]: 'Desktop Audio'
+17:45:48.775:     - filter: 'Limiter' (limiter_filter)
+17:45:48.775: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:45:48.775: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+17:45:48.775: pulse-input: Started recording from 'VAIO Desktop Mic - Spotify'
+17:45:48.775: [Loaded global audio device]: 'Mic/Aux'
+17:45:48.775:     - filter: 'Noise Gate' (noise_gate_filter)
+17:45:48.775:     - filter: 'Compressor' (compressor_filter)
+17:45:48.775:     - filter: 'Limiter' (limiter_filter)
+17:45:48.775: PipeWire initialized
+17:45:48.779: Device for 'Audio Output Capture' source Discord is also used for audio monitoring.
+17:45:48.779: Deduplication logic is being applied to all monitored sources.
+17:45:48.781: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:45:48.781: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+17:45:48.781: pulse-input: Started recording from 'alsa_output.usb-Corsair_Corsair_VOID_PRO_Wireless_Gaming_Headset-00.analog-stereo.monitor' (default)
+17:45:48.786: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:45:48.786: pulse-input: An error occurred while getting the source info!
+17:45:48.786: Switched to scene 'Scene'
+17:45:48.787: ------------------------------------------------
+17:45:48.787: Loaded scenes:
+17:45:48.787: - scene 'Scene':
+17:45:48.787:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+17:45:48.787:     - source: 'Mic/Aux' (pulse_input_capture)
+17:45:48.787:         - filter: 'Noise Gate' (noise_gate_filter)
+17:45:48.787:         - filter: 'Compressor' (compressor_filter)
+17:45:48.787:         - filter: 'Limiter' (limiter_filter)
+17:45:48.787:     - source: 'Discord' (pulse_output_capture)
+17:45:48.787:     - source: 'Games' (pulse_output_capture)
+17:45:48.787: ------------------------------------------------
+17:45:48.806: Device for 'Audio Output Capture' source Discord is also used for audio monitoring.
+17:45:48.806: Deduplication logic is being applied to all monitored sources.
+17:45:48.825: [pipewire] Screencast session created
+17:45:49.324: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+17:45:49.324: 
+17:45:52.546: [pipewire] Asking for monitor and window
+17:45:52.553: [pipewire] source selected, setting up screencast
+17:45:52.557: [pipewire] Server version: 1.6.8
+17:45:52.557: [pipewire] Library version: 1.6.8
+17:45:52.557: [pipewire] Header version: 1.6.8
+17:45:52.557: [pipewire] Created stream 0x55a352b990e0
+17:45:52.557: [pipewire] Stream 0x55a352b990e0 state: "connecting" (error: none)
+17:45:52.557: [pipewire] Playing stream 0x55a352b990e0
+17:45:52.558: [pipewire] Stream 0x55a352b990e0 state: "paused" (error: none)
+17:45:52.600: [pipewire] Negotiated format:
+17:45:52.600: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+17:45:52.600: [pipewire]     Modifier: 0x0
+17:45:52.600: [pipewire]     Size: 1920x1080
+17:45:52.600: [pipewire]     Framerate: 0/1
+17:45:52.600: [pipewire] Negotiated format:
+17:45:52.600: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+17:45:52.600: [pipewire]     Modifier: 0x300000000e08014
+17:45:52.600: [pipewire]     Size: 1920x1080
+17:45:52.600: [pipewire]     Framerate: 0/1
+17:45:52.601: [pipewire] Stream 0x55a352b990e0 state: "streaming" (error: none)
+17:45:59.640: [pipewire] Stream 0x55a352b990e0 state: "paused" (error: none)
+17:45:59.641: [pipewire] Stream 0x55a352b990e0 state: "unconnected" (error: none)
+17:45:59.655: PipeWire initialized
+17:45:59.656: [pipewire] Screencast session created
+17:46:00.671: [pipewire] Asking for monitor and window
+17:46:00.673: [pipewire] source selected, setting up screencast
+17:46:00.676: [pipewire] Server version: 1.6.8
+17:46:00.676: [pipewire] Library version: 1.6.8
+17:46:00.676: [pipewire] Header version: 1.6.8
+17:46:00.676: [pipewire] Created stream 0x55a352d45c60
+17:46:00.676: [pipewire] Stream 0x55a352d45c60 state: "connecting" (error: none)
+17:46:00.677: [pipewire] Playing stream 0x55a352d45c60
+17:46:00.677: [pipewire] Stream 0x55a352d45c60 state: "paused" (error: none)
+17:46:00.719: [pipewire] Negotiated format:
+17:46:00.719: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+17:46:00.719: [pipewire]     Modifier: 0x0
+17:46:00.719: [pipewire]     Size: 1920x1080
+17:46:00.719: [pipewire]     Framerate: 0/1
+17:46:00.719: [pipewire] Negotiated format:
+17:46:00.719: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+17:46:00.719: [pipewire]     Modifier: 0x300000000e08014
+17:46:00.719: [pipewire]     Size: 1920x1080
+17:46:00.719: [pipewire]     Framerate: 0/1
+17:46:00.720: [pipewire] Stream 0x55a352d45c60 state: "streaming" (error: none)
+17:46:04.078: [pipewire] Stream 0x55a352d45c60 state: "paused" (error: none)
+17:46:04.078: [pipewire] Stream 0x55a352d45c60 state: "unconnected" (error: none)
+17:46:04.092: PipeWire initialized
+17:46:04.093: [pipewire] Screencast session created
+17:46:05.141: [pipewire] Asking for monitor and window
+17:46:05.142: [pipewire] source selected, setting up screencast
+17:46:05.145: [pipewire] Server version: 1.6.8
+17:46:05.145: [pipewire] Library version: 1.6.8
+17:46:05.145: [pipewire] Header version: 1.6.8
+17:46:05.145: [pipewire] Created stream 0x55a352d46850
+17:46:05.145: [pipewire] Stream 0x55a352d46850 state: "connecting" (error: none)
+17:46:05.146: [pipewire] Playing stream 0x55a352d46850
+17:46:05.146: [pipewire] Stream 0x55a352d46850 state: "paused" (error: none)
+17:46:05.197: [pipewire] Negotiated format:
+17:46:05.197: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+17:46:05.197: [pipewire]     Modifier: 0x0
+17:46:05.197: [pipewire]     Size: 2560x1440
+17:46:05.197: [pipewire]     Framerate: 0/1
+17:46:05.197: [pipewire] Negotiated format:
+17:46:05.197: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+17:46:05.197: [pipewire]     Modifier: 0x300000000e08014
+17:46:05.197: [pipewire]     Size: 2560x1440
+17:46:05.197: [pipewire]     Framerate: 0/1
+17:46:05.198: [pipewire] Stream 0x55a352d46850 state: "streaming" (error: none)
+17:47:36.393: Device for 'Audio Output Capture' source Games is also used for audio monitoring.
+17:47:36.393: Deduplication logic is being applied to all monitored sources.
+17:47:36.393: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:47:36.393: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+17:47:36.393: pulse-input: Started recording from 'alsa_output.usb-Corsair_Corsair_VOID_PRO_Wireless_Gaming_Headset-00.analog-stereo.monitor' (default)
+17:47:45.059: Deduplication logic stopped.
+17:47:45.060: pulse-input: Stopped recording from 'VAIO Game Sound.monitor'
+17:47:45.060: pulse-input: Got 346 packets with 415200 frames
+17:47:45.060: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:47:45.060: pulse-input: An error occurred while getting the source info!
+17:48:02.286: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:48:02.286: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+17:48:02.286: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo' (default)
+17:48:02.288: User added source 'Audio Input Capture (PulseAudio)' (pulse_input_capture) to scene 'Scene'
+17:48:07.263: pulse-input: Stopped recording from 'default'
+17:48:07.263: pulse-input: Got 198 packets with 237600 frames
+17:48:07.264: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:48:07.264: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+17:48:07.264: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo' (default)
+17:48:12.181: User Removed source 'Audio Input Capture (PulseAudio)' (pulse_input_capture) from scene 'Scene'
+17:48:12.182: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+17:48:12.182: pulse-input: Got 196 packets with 235200 frames
+17:48:51.183: Device for 'Audio Output Capture' source Games is also used for audio monitoring.
+17:48:51.183: Deduplication logic is being applied to all monitored sources.
+17:48:51.183: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:48:51.183: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+17:48:51.183: pulse-input: Started recording from 'alsa_output.usb-Corsair_Corsair_VOID_PRO_Wireless_Gaming_Headset-00.analog-stereo.monitor' (default)
+17:48:58.139: Deduplication logic stopped.
+17:48:58.139: pulse-input: Stopped recording from 'VAIO Game Sound.monitor'
+17:48:58.139: pulse-input: Got 277 packets with 332400 frames
+17:48:58.140: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:48:58.140: pulse-input: An error occurred while getting the source info!
+17:49:01.052: Device for 'Audio Output Capture' source Games is also used for audio monitoring.
+17:49:01.052: Deduplication logic is being applied to all monitored sources.
+17:49:01.052: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:49:01.053: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+17:49:01.053: pulse-input: Started recording from 'alsa_output.usb-Corsair_Corsair_VOID_PRO_Wireless_Gaming_Headset-00.analog-stereo.monitor' (default)
+17:49:03.788: Deduplication logic stopped.
+17:49:03.788: pulse-input: Stopped recording from 'VAIO Game Sound.monitor'
+17:49:03.788: pulse-input: Got 109 packets with 130800 frames
+17:49:03.789: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:49:03.789: pulse-input: An error occurred while getting the source info!
+17:49:33.459: User Removed source 'Games' (pulse_output_capture) from scene 'Scene'
+17:49:38.775: Device for 'Audio Output Capture' source Audio Output Capture (PulseAudio) is also used for audio monitoring.
+17:49:38.775: Deduplication logic is being applied to all monitored sources.
+17:49:38.775: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:49:38.776: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+17:49:38.776: pulse-input: Started recording from 'alsa_output.usb-Corsair_Corsair_VOID_PRO_Wireless_Gaming_Headset-00.analog-stereo.monitor' (default)
+17:49:38.778: User added source 'Audio Output Capture (PulseAudio)' (pulse_output_capture) to scene 'Scene'
+17:49:38.806: Device for 'Audio Output Capture' source Audio Output Capture (PulseAudio) is also used for audio monitoring.
+17:49:38.806: Deduplication logic is being applied to all monitored sources.
+17:49:46.661: Source 'Audio Output Capture (PulseAudio)' renamed to 'Games'
+17:53:25.020: Deduplication logic stopped.
+17:53:25.025: pulse-input: Stopped recording from 'VAIO Hearing In.monitor'
+17:53:25.025: pulse-input: Got 9049 packets with 10858800 frames
+17:53:25.026: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:53:25.026: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+17:53:25.026: pulse-input: Started recording from 'VAIO Hearing In.monitor'
+17:53:36.437: pulse-input: Stopped recording from 'alsa_output.usb-Corsa_ir_Components_Inc._Corsair_ST100_Headset_Outpu_t_v0.6-00.analog-stereo.monitor'
+17:53:36.437: pulse-input: Got 455 packets with 546000 frames
+17:53:36.438: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:53:36.438: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+17:53:36.438: pulse-input: Started recording from 'alsa_output.usb-Corsa_ir_Components_Inc._Corsair_ST100_Headset_Outpu_t_v0.6-00.analog-stereo.monitor'
+17:54:17.797: Device for 'Audio Output Capture' source Games is also used for audio monitoring.
+17:54:17.797: Deduplication logic is being applied to all monitored sources.
+17:54:17.797: pulse-input: Stopped recording from 'default'
+17:54:17.797: pulse-input: Got 980 packets with 1176000 frames
+17:54:17.798: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:54:17.798: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+17:54:17.798: pulse-input: Started recording from 'alsa_output.usb-Corsair_Corsair_VOID_PRO_Wireless_Gaming_Headset-00.analog-stereo.monitor' (default)
+17:54:33.119: Device for 'Audio Output Capture' source Games is also used for audio monitoring.
+17:54:33.119: Deduplication logic is being applied to all monitored sources.
+17:54:33.119: pulse-input: Stopped recording from 'default'
+17:54:33.119: pulse-input: Got 612 packets with 734400 frames
+17:54:33.119: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:54:33.119: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+17:54:33.119: pulse-input: Started recording from 'alsa_output.usb-Corsair_Corsair_VOID_PRO_Wireless_Gaming_Headset-00.analog-stereo.monitor' (default)
+17:54:39.443: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:54:39.443: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+17:54:39.443: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo' (default)
+17:54:39.445: User added source 'Audio Input Capture (PulseAudio)' (pulse_input_capture) to scene 'Scene'
+17:54:42.077: pulse-input: Stopped recording from 'default'
+17:54:42.077: pulse-input: Got 104 packets with 124800 frames
+17:54:42.077: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+17:54:42.077: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+17:54:42.077: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo' (default)
+17:54:45.689: User Removed source 'Audio Input Capture (PulseAudio)' (pulse_input_capture) from scene 'Scene'
+17:54:45.689: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+17:54:45.689: pulse-input: Got 143 packets with 171600 frames
+17:56:08.189: [pipewire] Stream 0x55a352d46850 state: "paused" (error: none)
+17:56:11.925: [pipewire] Negotiated format:
+17:56:11.925: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+17:56:11.925: [pipewire]     Size: 1268x1402
+17:56:11.925: [pipewire]     Framerate: 0/1
+17:56:11.929: [pipewire] Stream 0x55a352d46850 state: "streaming" (error: none)
+17:56:19.797: [pipewire] Stream 0x55a352d46850 state: "paused" (error: none)
+17:56:19.800: [pipewire] Negotiated format:
+17:56:19.800: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+17:56:19.800: [pipewire]     Size: 2548x1402
+17:56:19.800: [pipewire]     Framerate: 0/1
+17:56:19.803: [pipewire] Stream 0x55a352d46850 state: "streaming" (error: none)
+17:56:22.652: [pipewire] Stream 0x55a352d46850 state: "paused" (error: none)
+17:56:22.654: [pipewire] Negotiated format:
+17:56:22.654: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+17:56:22.654: [pipewire]     Size: 2560x1440
+17:56:22.654: [pipewire]     Framerate: 0/1
+17:56:22.662: [pipewire] Stream 0x55a352d46850 state: "streaming" (error: none)
+17:56:26.665: [pipewire] Stream 0x55a352d46850 state: "paused" (error: none)
+17:56:26.669: [pipewire] Negotiated format:
+17:56:26.669: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+17:56:26.669: [pipewire]     Size: 2548x1402
+17:56:26.669: [pipewire]     Framerate: 0/1
+17:56:26.674: [pipewire] Stream 0x55a352d46850 state: "streaming" (error: none)
+17:56:34.100: [pipewire] Stream 0x55a352d46850 state: "paused" (error: none)
+17:56:34.101: [pipewire] Negotiated format:
+17:56:34.101: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+17:56:34.101: [pipewire]     Modifier: 0x300000000e08014
+17:56:34.101: [pipewire]     Size: 2560x1440
+17:56:34.101: [pipewire]     Framerate: 0/1
+17:56:34.101: [pipewire] Negotiated format:
+17:56:34.101: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+17:56:34.101: [pipewire]     Modifier: 0x300000000e08014
+17:56:34.101: [pipewire]     Size: 2560x1440
+17:56:34.101: [pipewire]     Framerate: 0/1
+17:56:34.102: [pipewire] Stream 0x55a352d46850 state: "streaming" (error: none)
