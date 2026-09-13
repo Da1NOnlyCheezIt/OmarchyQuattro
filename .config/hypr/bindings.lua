@@ -3,6 +3,11 @@ hl.bind("SUPER + SHIFT + ALT + CTRL + S",hl.dsp.exec_cmd("omarchy-launch-or-focu
 hl.bind("SUPER + SHIFT + ALT + CTRL + O", hl.dsp.exec_cmd([[omarchy-launch-or-focus ^obs$ "uwsm-app -- obs --startreplaybuffer"]]), { description = "OBS" })
 
 -- Overwrites of default binds
+hl.unbind("SUPER + mouse_up")
+hl.unbind("SUPER + mouse_down")
+hl.unbind("SUPER + ALT + F")
+hl.unbind("SUPER + S")
+hl.unbind("SUPER + ALT + S")
 hl.unbind("SUPER + CTRL + Z")
 hl.unbind("SUPER + CTRL + ALT + Z")
 hl.unbind("SUPER + W")
