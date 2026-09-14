@@ -6,6 +6,7 @@ hl.bind("SUPER + SHIFT + ALT + CTRL + O", hl.dsp.exec_cmd([[omarchy-launch-or-fo
 hl.unbind("SUPER + mouse_up")
 hl.unbind("SUPER + mouse_down")
 hl.unbind("SUPER + ALT + F")
+hl.unbind("SUPER + ALT + P")
 hl.unbind("SUPER + S")
 hl.unbind("SUPER + ALT + S")
 hl.unbind("SUPER + CTRL + Z")
