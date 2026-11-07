@@ -35,9 +35,6 @@
           "id": "omarchy.tray"
         },
         {
-          "id": "da1nonlycheezit.steam-launch-options"
-        },
-        {
           "id": "io.github.ilkaydnc.omargb",
           "off": {},
           "themeSync": false
@@ -60,7 +57,10 @@
         {
           "id": "omarchy.power"
         }
-      ]
+      ],
+      "centerBegin": [],
+      "centerEnd": [],
+      "tray": []
     },
     "position": "top",
     "transparent": false
