@@ -45,3 +45,10 @@ hl.config({
         vrr = 0,
     },
 })
+
+-- https://wiki.hypr.land/configuring/core/config-options/#cursor
+hl.config({
+    cursor = {
+        no_hardware_cursors = 1,
+    },
+})

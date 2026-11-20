@@ -11,7 +11,17 @@ hl.monitor({ output = "HDMI-A-1", mode = "1920x1080@144", position = "2560x360",
 hl.monitor({ output   = "DP-2", mode     = "preferred", position = "auto", scale    = 1.00, })
 hl.workspace_rule({ workspace = "name:VR", monitor = "DP-2",})
 
---hl.workspace_rule({ workspace = 1, monitor = "DP-3",default=true,})
+--hl.workspace_rule({ workspace = 1, monitor = "DP-3",default=true})
 --for i = 2, 10 do
---  hl.workspace_rule({ workspace = i, monitor = "HDMI-A-1",default=true})
+--  hl.workspace_rule({ workspace = i, monitor = "HDMI-A-1"})
 --end
+
+-- Workspaces on Monitors
+hl.workspace_rule({workspace = 11, monitor = "DP-3", default = true})
+for i = 1,20 do
+    if i <= 10 then
+        hl.workspace_rule({workspace = i, monitor = "HDMI-A-1"})
+    else
+        hl.workspace_rule({workspace = i, monitor = "DP-3"})
+    end
+end

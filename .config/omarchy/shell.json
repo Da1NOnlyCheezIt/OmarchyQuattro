@@ -1,17 +1,24 @@
 {
   "bar": {
-    "centerAnchor": "omarchy.clock",
+    "background": "glassy",
     "layout": {
       "center": [
-        {
-          "id": "omarchy.indicators"
-        },
         {
           "id": "omarchy.clock",
           "format": "ddd d MMM HH:mm",
           "formatAlt": "d MMMM 'W'ww yyyy",
           "verticalFormat": "HH\n—\nmm"
+        }
+      ],
+      "centerBegin": [
+        {
+          "id": "omarchy.indicators"
         },
+        {
+          "id": "worcrest.config-lock"
+        }
+      ],
+      "centerEnd": [
         {
           "id": "omarchy.keyboard-layout"
         },
@@ -27,7 +34,7 @@
           "id": "omarchy.menu"
         },
         {
-          "id": "omarchy.workspaces"
+          "id": "worcrest.workspaces"
         }
       ],
       "right": [
@@ -35,9 +42,7 @@
           "id": "omarchy.tray"
         },
         {
-          "id": "io.github.ilkaydnc.omargb",
-          "off": {},
-          "themeSync": false
+          "id": "derekross.rgb"
         },
         {
           "id": "omarchy.bluetooth"
@@ -58,17 +63,25 @@
           "id": "omarchy.power"
         }
       ],
-      "centerBegin": [],
-      "centerEnd": [],
       "tray": []
     },
     "position": "top",
-    "transparent": false
+    "id": "worcrest.bar"
   },
   "idle": {
     "lock": 1800,
     "screensaver": 300
   },
-  "plugins": [],
-  "version": 1
+  "plugins": [
+    {
+      "id": "worcrest.dock"
+    }
+  ],
+  "version": 1,
+  "disabledPlugins": [
+    "omarchy.dock"
+  ],
+  "cloneSourceRestores": [
+    "worcrest.dock"
+  ]
 }

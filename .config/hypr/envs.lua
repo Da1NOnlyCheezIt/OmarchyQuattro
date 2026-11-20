@@ -18,6 +18,8 @@ hl.env("GDK_BACKEND", "wayland,x11")
 
 hl.env("QT_QPA_PLATFORM", "wayland;xcb")
 
+hl.env("SDL_VIDEODRIVER", "wayland,x11")
+
 -- =====================================================================
 
 -- 2. NVIDIA HARDWARE ACCELERATION
