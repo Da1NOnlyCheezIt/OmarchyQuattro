@@ -1,0 +1,226 @@
+19:05:50.385: Platform: Wayland
+19:05:50.385: CPU Name: 13th Gen Intel(R) Core(TM) i7-13700KF
+19:05:50.385: CPU Speed: 5252.899MHz
+19:05:50.385: Physical Cores: 16, Logical Cores: 24
+19:05:50.385: Physical Memory: 31889MB Total, 1455MB Free
+19:05:50.385: Kernel Version: Linux 7.2.15-1-omarchy
+19:05:50.385: Flatpak Branch: stable
+19:05:50.385: Flatpak Arch: x86_64
+19:05:50.385: Flatpak Commit: 28b32b8f9e50b4fc6564266312cce8af79d22b72a2f39ba1556c7cbb516563ec
+19:05:50.385: Flatpak Runtime: runtime/org.freedesktop.Platform/x86_64/26.08
+19:05:50.385: Runtime Extensions:
+19:05:50.385:  - org.freedesktop.Platform.GL.default
+19:05:50.385:  - org.freedesktop.Platform.GL.nvidia-615-78-08
+19:05:50.385:  - org.freedesktop.Platform.Locale
+19:05:50.385:  - org.gtk.Gtk3theme.Adwaita-dark
+19:05:50.385:  - org.freedesktop.Platform.VAAPI.nvidia
+19:05:50.385:  - org.freedesktop.Platform.codecs-extra
+19:05:50.385:  - org.freedesktop.Platform.GL.default
+19:05:50.385: Flatpak Framework Version: 1.18.4
+19:05:50.385: Desktop Environment: Hyprland (Hyprland)
+19:05:50.385: Session Type: wayland
+19:05:50.386: Current Date/Time: 2026-11-19, 07:05:50 PM
+19:05:50.386: Browser Hardware Acceleration: true
+19:05:50.386: Qt Version: 6.11.1 (runtime), 6.11.1 (compiled)
+19:05:50.386: Portable mode: false
+19:05:50.404: OBS 33.0.1 (linux)
+19:05:50.404: ---------------------------------
+19:05:50.404: ---------------------------------
+19:05:50.404: audio settings reset:
+19:05:50.404: 	samples per sec: 48000
+19:05:50.404: 	speakers:        2
+19:05:50.404: 	max buffering:   960 milliseconds
+19:05:50.404: 	buffering type:  dynamically increasing
+19:05:50.405: ---------------------------------
+19:05:50.405: Initializing OpenGL...
+19:05:50.405: Using EGL/Wayland
+19:05:50.430: Initialized EGL 1.5
+19:05:50.467: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3080/PCIe/SSE2
+19:05:50.467: OpenGL loaded successfully, version 3.3.0 NVIDIA 615.78.08, shading language 3.30 NVIDIA via Cg compiler
+19:05:50.481: ---------------------------------
+19:05:50.481: video settings reset:
+19:05:50.481: 	base resolution:   2560x1440
+19:05:50.481: 	output resolution: 1920x1080
+19:05:50.481: 	downscale filter:  Bicubic
+19:05:50.481: 	fps:               30/1
+19:05:50.481: 	format:            NV12
+19:05:50.481: 	YUV mode:          Rec. 709/Partial
+19:05:50.481: NV12 texture support enabled
+19:05:50.481: P010 texture support not available
+19:05:50.481: Audio monitoring device:
+19:05:50.481: 	name: Default
+19:05:50.481: 	id: default
+19:05:50.519: No AJA devices found, skipping loading AJA plugin
+19:05:50.519: Failed to initialize module 'aja.so'
+19:05:50.519: No AJA devices found, skipping loading AJA UI plugin
+19:05:50.519: Failed to initialize module 'aja-output-ui.so'
+19:05:50.576: [pipewire] Available capture sources:
+19:05:50.576: [pipewire]     - Monitor source
+19:05:50.576: [pipewire]     - Window source
+19:05:50.583: v4l2loopback not installed, virtual camera not registered
+19:05:50.593: [obs-browser]: Version 2.27.5
+19:05:50.593: [obs-browser]: CEF Version 150.0.7871.252 (runtime), 150.0.19+gcf60f42+chromium-150.0.7871.252 (compiled)
+19:05:50.593: [obs-browser]: Blacklisted driver detected, disabling browser source hardware acceleration.
+19:05:50.594: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+19:05:50.841: VAAPI: API version 1.24
+19:05:50.895: FFmpeg VAAPI H264 encoding not supported
+19:05:51.113: FFmpeg VAAPI AV1 encoding not supported
+19:05:51.339: FFmpeg VAAPI HEVC encoding not supported
+19:05:51.489: [obs-nvenc] NVENC version: 13.0 (compiled) / 13.1 (driver), CUDA driver version: 13.40, AV1 supported: false
+19:05:52.147: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.6 | RPC Version: 1)
+19:05:52.147: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.11.1 | Qt version (run-time): 6.11.1
+19:05:52.147: [obs-websocket] [obs_module_load] Linked ASIO Version: 103200
+19:05:52.149: [obs-websocket] [obs_module_load] Module loaded.
+19:05:52.150: ---------------------------------
+19:05:52.150: ---------------------------------
+19:05:52.150:   Loaded Modules:
+19:05:52.150:     text-freetype2.so
+19:05:52.150:     rtmp-services.so
+19:05:52.150:     obs-x264.so
+19:05:52.150:     obs-websocket.so
+19:05:52.150:     obs-webrtc.so
+19:05:52.150:     obs-vst.so
+19:05:52.150:     obs-transitions.so
+19:05:52.150:     obs-qsv11.so
+19:05:52.150:     obs-outputs.so
+19:05:52.150:     obs-nvenc.so
+19:05:52.150:     obs-libfdk.so
+19:05:52.150:     obs-filters.so
+19:05:52.150:     obs-ffmpeg.so
+19:05:52.150:     obs-browser.so
+19:05:52.150:     linux-v4l2.so
+19:05:52.150:     linux-pulseaudio.so
+19:05:52.150:     linux-pipewire.so
+19:05:52.150:     linux-jack.so
+19:05:52.150:     linux-capture.so
+19:05:52.150:     image-source.so
+19:05:52.150:     frontend-tools.so
+19:05:52.150: ---------------------------------
+19:05:52.150: ---------------------------------
+19:05:52.150: Available Encoders:
+19:05:52.150:   Video Encoders:
+19:05:52.150: 	- ffmpeg_svt_av1 (SVT-AV1)
+19:05:52.150: 	- ffmpeg_aom_av1 (AOM AV1)
+19:05:52.150: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+19:05:52.150: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+19:05:52.150: 	- obs_x264 (x264)
+19:05:52.150:   Audio Encoders:
+19:05:52.151: 	- ffmpeg_aac (FFmpeg AAC)
+19:05:52.151: 	- ffmpeg_opus (FFmpeg Opus)
+19:05:52.151: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+19:05:52.151: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+19:05:52.151: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+19:05:52.151: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+19:05:52.151: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+19:05:52.151: 	- libfdk_aac (libfdk AAC)
+19:05:52.151: ==== Startup complete ===============================================
+19:05:52.197: All scene data cleared
+19:05:52.197: ------------------------------------------------
+19:05:52.201: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+19:05:52.202: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+19:05:52.202: pulse-input: Started recording from 'VAIO Hearing In.monitor'
+19:05:52.202: [Loaded global audio device]: 'Desktop Audio'
+19:05:52.202:     - filter: 'Limiter' (limiter_filter)
+19:05:52.202: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+19:05:52.202: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+19:05:52.202: pulse-input: Started recording from 'VAIO Desktop Mic - Spotify'
+19:05:52.202: [Loaded global audio device]: 'Mic/Aux'
+19:05:52.202:     - filter: 'Noise Gate' (noise_gate_filter)
+19:05:52.202:     - filter: 'Compressor' (compressor_filter)
+19:05:52.202:     - filter: 'Limiter' (limiter_filter)
+19:05:52.202: PipeWire initialized
+19:05:52.208: Device for 'Audio Output Capture' source Discord is also used for audio monitoring.
+19:05:52.208: Deduplication logic is being applied to all monitored sources.
+19:05:52.208: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+19:05:52.208: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+19:05:52.208: pulse-input: Started recording from 'alsa_output.usb-Corsair_Corsair_VOID_PRO_Wireless_Gaming_Headset-00.analog-stereo.monitor' (default)
+19:05:52.212: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.9) 15.0.0'
+19:05:52.212: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+19:05:52.212: pulse-input: Started recording from 'VAIO Game Sound.monitor'
+19:05:52.214: Switched to scene 'Scene'
+19:05:52.214: ------------------------------------------------
+19:05:52.214: Loaded scenes:
+19:05:52.214: - scene 'Scene':
+19:05:52.214:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+19:05:52.214:     - source: 'Mic/Aux' (pulse_input_capture)
+19:05:52.214:         - filter: 'Noise Gate' (noise_gate_filter)
+19:05:52.214:         - filter: 'Compressor' (compressor_filter)
+19:05:52.214:         - filter: 'Limiter' (limiter_filter)
+19:05:52.214:     - source: 'Discord' (pulse_output_capture)
+19:05:52.214:     - source: 'Games' (pulse_output_capture)
+19:05:52.214: ------------------------------------------------
+19:05:52.228: Device for 'Audio Output Capture' source Discord is also used for audio monitoring.
+19:05:52.228: Deduplication logic is being applied to all monitored sources.
+19:05:52.299: [pipewire] Screencast session created
+19:05:52.751: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+19:05:52.751: 
+19:05:54.329: [pipewire] Asking for monitor and window
+19:05:54.336: [pipewire] source selected, setting up screencast
+19:05:54.345: [pipewire] Server version: 1.6.9
+19:05:54.345: [pipewire] Library version: 1.6.8
+19:05:54.345: [pipewire] Header version: 1.6.8
+19:05:54.345: [pipewire] Created stream 0x55cadcfcefa0
+19:05:54.345: [pipewire] Stream 0x55cadcfcefa0 state: "connecting" (error: none)
+19:05:54.346: [pipewire] Playing stream 0x55cadcfcefa0
+19:05:54.346: [pipewire] Stream 0x55cadcfcefa0 state: "paused" (error: none)
+19:05:54.375: [pipewire] Negotiated format:
+19:05:54.375: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+19:05:54.375: [pipewire]     Modifier: 0x0
+19:05:54.375: [pipewire]     Size: 2560x1440
+19:05:54.375: [pipewire]     Framerate: 0/1
+19:05:54.375: [pipewire] Negotiated format:
+19:05:54.375: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+19:05:54.375: [pipewire]     Modifier: 0x300000000e08014
+19:05:54.375: [pipewire]     Size: 2560x1440
+19:05:54.375: [pipewire]     Framerate: 0/1
+19:05:54.376: [pipewire] Stream 0x55cadcfcefa0 state: "streaming" (error: none)
+19:06:10.251: 
+19:06:10.251: ==== Auto-config wizard testing commencing ======
+
+19:06:10.422: ---------------------------------
+19:06:10.422: video settings reset:
+19:06:10.422: 	base resolution:   2560x1440
+19:06:10.422: 	output resolution: 128x128
+19:06:10.422: 	downscale filter:  Bicubic
+19:06:10.422: 	fps:               60/1
+19:06:10.422: 	format:            NV12
+19:06:10.422: 	YUV mode:          Rec. 709/Partial
+19:06:10.423: NV12 texture support enabled
+19:06:10.423: P010 texture support not available
+19:06:10.426: ---------------------------------
+19:06:10.426: [x264 encoder: 'test_x264'] preset: veryfast
+19:06:10.426: [x264 encoder: 'test_x264'] settings:
+19:06:10.426: 	rate_control: CBR
+19:06:10.426: 	bitrate:      10000
+19:06:10.426: 	buffer size:  10000
+19:06:10.426: 	crf:          23
+19:06:10.426: 	fps_num:      60
+19:06:10.426: 	fps_den:      1
+19:06:10.426: 	width:        128
+19:06:10.426: 	height:       128
+19:06:10.426: 	keyint:       120
+19:06:10.426: 
+19:06:10.426: ---------------------------------
+19:06:10.426: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo, track: 1
+19:06:10.426: 
+19:06:10.427: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live.restream.io/live...
+19:06:10.448: [pipewire] Stream 0x55cadcfcefa0 state: "paused" (error: none)
+19:06:11.267: [rtmp stream: 'test_stream'] Connection to rtmp://live.restream.io/live (170.23.158.171) successful
+19:06:24.090: [rtmp stream: 'test_stream'] User stopped the stream
+19:06:24.090: Output 'test_stream': stopping
+19:06:24.090: Output 'test_stream': Total frames output: 751
+19:06:24.090: Output 'test_stream': Total drawn frames: 819 (820 attempted)
+19:06:24.090: Output 'test_stream': Number of lagged frames due to rendering lag/stalls: 1 (0.1%)
+19:06:24.116: ---------------------------------
+19:06:24.116: video settings reset:
+19:06:24.116: 	base resolution:   2560x1440
+19:06:24.116: 	output resolution: 1920x1080
+19:06:24.116: 	downscale filter:  Bicubic
+19:06:24.116: 	fps:               30/1
+19:06:24.116: 	format:            NV12
+19:06:24.116: 	YUV mode:          Rec. 709/Partial
+19:06:24.117: NV12 texture support enabled
+19:06:24.117: P010 texture support not available
+19:06:24.169: [pipewire] Stream 0x55cadcfcefa0 state: "streaming" (error: none)
+19:06:24.173: Device for 'Audio Output Capture' source Discord is also used for audio monitoring.
+19:06:24.173: Deduplication logic is being applied to all monitored sources.
