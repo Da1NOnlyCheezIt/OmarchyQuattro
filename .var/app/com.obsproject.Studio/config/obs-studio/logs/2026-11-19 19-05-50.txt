@@ -224,3 +224,38 @@
 19:06:24.169: [pipewire] Stream 0x55cadcfcefa0 state: "streaming" (error: none)
 19:06:24.173: Device for 'Audio Output Capture' source Discord is also used for audio monitoring.
 19:06:24.173: Deduplication logic is being applied to all monitored sources.
+19:08:57.804: ---------------------------------
+19:08:57.804: video settings reset:
+19:08:57.804: 	base resolution:   2560x1440
+19:08:57.804: 	output resolution: 1920x1080
+19:08:57.804: 	downscale filter:  Bicubic
+19:08:57.804: 	fps:               30/1
+19:08:57.804: 	format:            NV12
+19:08:57.804: 	YUV mode:          Rec. 709/Partial
+19:08:57.804: NV12 texture support enabled
+19:08:57.804: P010 texture support not available
+19:08:57.805: 
+19:08:57.805: ==== Auto-config wizard testing stopping ========
+
+19:09:04.341: This plugin supports grabbing the mouse only for popup windows
+19:09:04.342: This plugin supports grabbing the mouse only for popup windows
+19:09:11.015: This plugin supports grabbing the mouse only for popup windows
+19:09:11.016: This plugin supports grabbing the mouse only for popup windows
+19:09:12.676: This plugin supports grabbing the mouse only for popup windows
+19:09:12.677: This plugin supports grabbing the mouse only for popup windows
+19:10:56.504: Settings changed (stream 1, outputs)
+19:10:56.509: ------------------------------------------------
+19:11:01.760: This plugin supports grabbing the mouse only for popup windows
+19:11:01.897: This plugin supports grabbing the mouse only for popup windows
+19:11:17.495: Settings changed (stream 1, outputs)
+19:11:17.495: ------------------------------------------------
+19:11:29.566: This plugin supports grabbing the mouse only for popup windows
+19:11:29.566: This plugin supports grabbing the mouse only for popup windows
+19:11:41.390: failed to create compose table
+19:11:43.118: Settings changed (stream 1)
+19:11:43.118: ------------------------------------------------
+19:12:03.178: Settings changed (stream 1)
+19:12:03.178: ------------------------------------------------
+19:13:23.533: Settings changed (stream 1)
+19:13:23.533: ------------------------------------------------
+19:18:49.016: User added source 'Desktop Audio' (pulse_output_capture) to scene 'Scene'

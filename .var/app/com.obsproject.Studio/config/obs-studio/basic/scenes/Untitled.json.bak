@@ -1,7 +1,7 @@
 {
     "name": "Untitled",
     "DesktopAudioDevice1": {
-        "prev_ver": 537001986,
+        "prev_ver": 553648129,
         "name": "Desktop Audio",
         "uuid": "d7db5794-8903-48e8-82bf-073dce0847e5",
         "id": "pulse_output_capture",
@@ -23,16 +23,19 @@
         "hotkeys": {
             "libobs.mute": [],
             "libobs.unmute": [],
+            "libobs.monitor-on": [],
+            "libobs.monitor-off": [],
             "libobs.push-to-mute": [],
             "libobs.push-to-talk": []
         },
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
         "monitoring_type": 0,
+        "monitoring_enabled": false,
         "private_settings": {},
         "filters": [
             {
-                "prev_ver": 537001986,
+                "prev_ver": 553648129,
                 "name": "Limiter",
                 "uuid": "1c975947-974f-4bd9-94a1-ddcef54dc0bd",
                 "id": "limiter_filter",
@@ -55,12 +58,13 @@
                 "deinterlace_mode": 0,
                 "deinterlace_field_order": 0,
                 "monitoring_type": 0,
+                "monitoring_enabled": false,
                 "private_settings": {}
             }
         ]
     },
     "AuxAudioDevice1": {
-        "prev_ver": 537001986,
+        "prev_ver": 553648129,
         "name": "Mic/Aux",
         "uuid": "c79262d1-33a0-4acf-9ef2-19042866b698",
         "id": "pulse_input_capture",
@@ -82,16 +86,19 @@
         "hotkeys": {
             "libobs.mute": [],
             "libobs.unmute": [],
+            "libobs.monitor-on": [],
+            "libobs.monitor-off": [],
             "libobs.push-to-mute": [],
             "libobs.push-to-talk": []
         },
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
         "monitoring_type": 0,
+        "monitoring_enabled": false,
         "private_settings": {},
         "filters": [
             {
-                "prev_ver": 537001986,
+                "prev_ver": 553648129,
                 "name": "Noise Gate",
                 "uuid": "31a3c1dc-f362-4300-8560-71295d941b26",
                 "id": "noise_gate_filter",
@@ -115,10 +122,11 @@
                 "deinterlace_mode": 0,
                 "deinterlace_field_order": 0,
                 "monitoring_type": 0,
+                "monitoring_enabled": false,
                 "private_settings": {}
             },
             {
-                "prev_ver": 537001986,
+                "prev_ver": 553648129,
                 "name": "Compressor",
                 "uuid": "8912bb6f-b980-4105-bbe9-de859217a0d2",
                 "id": "compressor_filter",
@@ -139,10 +147,11 @@
                 "deinterlace_mode": 0,
                 "deinterlace_field_order": 0,
                 "monitoring_type": 0,
+                "monitoring_enabled": false,
                 "private_settings": {}
             },
             {
-                "prev_ver": 537001986,
+                "prev_ver": 553648129,
                 "name": "Limiter",
                 "uuid": "901aa5b3-1541-4b0b-b090-c02f2f924dcb",
                 "id": "limiter_filter",
@@ -165,13 +174,14 @@
                 "deinterlace_mode": 0,
                 "deinterlace_field_order": 0,
                 "monitoring_type": 0,
+                "monitoring_enabled": false,
                 "private_settings": {}
             }
         ]
     },
     "sources": [
         {
-            "prev_ver": 537001986,
+            "prev_ver": 553648129,
             "name": "Screen Capture (PipeWire)",
             "uuid": "53870a0c-663d-4cca-9559-42f453c1a742",
             "id": "pipewire-screen-capture-source",
@@ -194,10 +204,11 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "monitoring_enabled": false,
             "private_settings": {}
         },
         {
-            "prev_ver": 537001986,
+            "prev_ver": 553648129,
             "name": "Discord",
             "uuid": "49178658-2226-4c70-a8d3-251c5c18c534",
             "id": "pulse_output_capture",
@@ -217,16 +228,19 @@
             "hotkeys": {
                 "libobs.mute": [],
                 "libobs.unmute": [],
+                "libobs.monitor-on": [],
+                "libobs.monitor-off": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "monitoring_enabled": false,
             "private_settings": {}
         },
         {
-            "prev_ver": 537001986,
+            "prev_ver": 553648129,
             "name": "Games",
             "uuid": "b8963795-3d37-47ff-9883-6b65b94b7935",
             "id": "pulse_output_capture",
@@ -248,16 +262,19 @@
             "hotkeys": {
                 "libobs.mute": [],
                 "libobs.unmute": [],
+                "libobs.monitor-on": [],
+                "libobs.monitor-off": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "monitoring_enabled": false,
             "private_settings": {}
         },
         {
-            "prev_ver": 537001986,
+            "prev_ver": 553648129,
             "name": "Scene",
             "uuid": "b5bca49f-7ba6-436f-8825-c53ea5bf9a85",
             "id": "scene",
@@ -307,7 +324,7 @@
                             "y": 1440.0
                         },
                         "bounds_rel": {
-                            "x": 3.555555582046509,
+                            "x": 3.5555555820465088,
                             "y": 2.0
                         },
                         "scale_filter": "disable",
@@ -513,6 +530,7 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "monitoring_enabled": false,
             "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         }
@@ -555,7 +573,7 @@
     "saved_projectors": [],
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -17,
+    "scaling_level": -16,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "modules": {

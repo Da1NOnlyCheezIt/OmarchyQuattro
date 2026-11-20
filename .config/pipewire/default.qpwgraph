@@ -222,6 +222,10 @@
    <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_2"/>
+   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Spotify/spotify" port="spotify:output_FL"/>
    <input node="VAIO Hearing In-1" port="VAIO Hearing In:playback_1"/>
   </item>
@@ -314,10 +318,6 @@
    <input node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:input_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium" port="Chromium:output_FL"/>
-   <input node="OBS-2" port="OBS:input_FL"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
    <output node="VAIO Game Sound" port="VAIO Game Sound:capture_1"/>
    <input node="OBS-3" port="OBS:input_1"/>
   </item>
@@ -336,10 +336,6 @@
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="discord-1" port="discord:output_FR"/>
    <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_1"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_1"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_2"/>
@@ -371,6 +367,10 @@
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="VAIO Desktop Mic's - Spotify" port="VAIO Desktop Mic's - Spotify:monitor_1"/>
+   <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_1"/>
    <input node="Corsair VOID PRO Wireless Gaming Headset Analog Stereo" port="Corsair VOID PRO Wireless Gamin:playback_FL"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
@@ -412,10 +412,6 @@
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FR"/>
    <input node="VAIO Desktop" port="VAIO Desktop:input_FR"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="WEBRTC VoiceEngine" port="WEBRTC VoiceEngine:output_2"/>
-   <input node="VAIO Hearing In" port="VAIO Hearing In:playback_2"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Built-in Audio Analog Stereo" port="ALC897 Analog:capture_FL"/>
@@ -520,10 +516,6 @@
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
    <input node="VAIO Desktop Mic Setup" port="VAIO Desktop Mic Setup:playback_1"/>
-  </item>
-  <item node-type="pipewire" port-type="pipewire-audio">
-   <output node="Chromium" port="Chromium:output_FR"/>
-   <input node="OBS-2" port="OBS:input_FR"/>
   </item>
   <item node-type="pipewire" port-type="pipewire-audio">
    <output node="Spider V 20 Analog Stereo" port="Spider V 20:capture_FL"/>
