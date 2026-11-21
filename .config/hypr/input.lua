@@ -10,6 +10,7 @@ hl.config({
 --      kb_options = "caps:menu",
         scroll_method = "on_button_down",
         scroll_button = 274,
+        scroll_factor = 3,
 --
 --     -- Use a specific keyboard variant if needed (e.g. intl for international keyboards).
 --     kb_variant = "intl",
