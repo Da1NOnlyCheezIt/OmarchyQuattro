@@ -1,7 +1,7 @@
 -- Application bindings
 hl.bind("SUPER + SHIFT + ALT + CTRL + S",hl.dsp.exec_cmd("omarchy-launch-or-focus spotify"), { description = "Music" })
 hl.bind("SUPER + SHIFT + ALT + CTRL + O", hl.dsp.exec_cmd([[omarchy-launch-or-focus ^obs$ "uwsm-app -- obs --startreplaybuffer"]]), { description = "OBS" })
-
+hl.bind("SUPER + N", hl.dsp.exec_cmd("omarchy-launch-or-focus omacalc"), { description = "Calculator" })
 -- Unbinds of default binds
 hl.unbind("CTRL + ALT + DELETE")
 hl.unbind("F9")
@@ -27,6 +27,12 @@ hl.unbind("SUPER + SHIFT + BACKSPACE")
 hl.unbind("SUPER + SHIFT + grave")
 hl.unbind("SUPER + SHIFT + SPACE")
 hl.unbind("SUPER + W")
+hl.unbind("SUPER + CTRL + N")
+hl.unbind("SUPER + O")
+hl.unbind("SUPER + CTRL + T")
+hl.unbind("SUPER + CTRL + I")
+hl.unbind("SUPER + M")
+
 
 -- Overwrites of default binds
 hl.unbind("SUPER + ALT + W")
@@ -40,7 +46,6 @@ hl.bind("SUPER + SHIFT + TAB", hl.dsp.window.move({ workspace = "e+1" }), { desc
 
 hl.unbind("SUPER + SHIFT + N")
 hl.bind("SUPER + SHIFT + N", hl.dsp.window.move({ workspace = "empty" }), { description = "Move To Blank Workspace" })
-
 
 -- Unbind the stock per-monitor workspace binds (keycode form)
 for i = 10, 19 do

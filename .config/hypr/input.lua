@@ -7,7 +7,9 @@ hl.config({
     input = {
 --     -- Use multiple keyboard layouts and switch between them with Left Alt + Right Alt.
         kb_layout = "us",
---     kb_options = "compose:caps,shift:both_capslock_cancel,grp:alts_toggle",
+--      kb_options = "caps:menu",
+        scroll_method = "on_button_down",
+        scroll_button = 274,
 --
 --     -- Use a specific keyboard variant if needed (e.g. intl for international keyboards).
 --     kb_variant = "intl",
@@ -25,6 +27,7 @@ hl.config({
 --     -- Turn off mouse acceleration (default: adaptive).
         accel_profile = "flat",
         follow_mouse = 1,
+        follow_mouse_shrink = 50,
         float_switch_override_focus = 0,
 --     touchpad = {
 --       -- Use natural (inverse) scrolling.

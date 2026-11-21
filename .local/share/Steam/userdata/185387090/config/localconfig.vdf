@@ -12,6 +12,7 @@
 		"InGameOverlayScreenshotHotKey"		"KEY_NONE"
 		"InGameOverlayShowFPSCorner"		"2"
 		"InGameOverlayShowFPSDetailLevel"		"3"
+		"EnableGameOverlay"		"0"
 	}
 	"streaming_v2"
 	{
@@ -698,7 +699,7 @@
 		"1757300"		"320000000400000052c80c0b0100100174d01a00e0e916aefe01a8c000000000f4effc6a749f186b01009a9d090000000000a8d206304b59ef439a2a46d9282a08218e09abfa6c7a5c0ddfcaef2944af61bbb85975a363b437059e5b8c728c4db43701097228356c60de6a85d91e1b50836bf3c07c7216b369c952400a085da9a129711c62354c0b44260502d9e574af85e42b5e76adf1120e90bddf10e2f231de050fb54d6ee0fab46d73e25001c57f053d"
 		"4690330"		"320000000400000052c80c0b010010019a914700e0e916aefe01a8c000000000f5effc6a759f186b0100000000000000000093e7455644723d175be71eaf1fea9442f804a1919f1826b0a6dbb411297c219159a1f20aed021478f11fc9e5772474651b23767328b8a5b1501736580bea51c27b9d0542bf2dfaa061d7e1a9d9b10e7bac9ba51f2e6ee6caddc43ef95dd08ae57ca5ad873db55849620d3368234b51ee82adb819cc42d74ac5b787a0a355f137"
 	}
-	"AppInfoChangeNumber"		"41284992"
+	"AppInfoChangeNumber"		"41340288"
 	"Software"
 	{
 		"Valve"
@@ -752,19 +753,25 @@
 					}
 					"105600"
 					{
-						"LastPlayed"		"1791565982"
-						"Playtime"		"77693"
+						"LastPlayed"		"1795207235"
+						"Playtime"		"77734"
 						"cloud"
 						{
 							"last_sync_state"		"synchronized"
 						}
 						"autocloud"
 						{
-							"lastlaunch"		"1789317051"
-							"lastexit"		"1789318995"
+							"lastlaunch"		"1795204753"
+							"lastexit"		"1795207235"
 						}
 						"BadgeData"		"020000000841"
 						"LaunchOptions"		"gamemoderun gamescope --force-grab-cursor --backend sdl -W 2560 -H 1440 -- %command%"
+						"perfreporting"
+						{
+							"weekstart"		"1795204818"
+							"secondssubmitted"		"2400"
+						}
+						"Playtime2wks"		"41"
 						"PlaytimeDisconnected"		"248"
 					}
 					"107410"
@@ -839,7 +846,7 @@
 					}
 					"250820"
 					{
-						"LastPlayed"		"1795138126"
+						"LastPlayed"		"1795284553"
 						"cloud"
 						{
 							"last_sync_state"		"synchronized"
@@ -847,12 +854,12 @@
 						"autocloud"
 						{
 							"lastlaunch"		"1783882207"
-							"lastexit"		"1795138126"
+							"lastexit"		"1795284553"
 						}
 						"BadgeData"		"020000000841"
 						"LaunchOptions"		"__NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia QT_QPA_PLATFORM=xcb STEAMVR_FORCE_XWAYLAND=1 %command%"
-						"Playtime2wks"		"2337"
-						"Playtime"		"45322"
+						"Playtime2wks"		"2072"
+						"Playtime"		"45432"
 					}
 					"252490"
 					{
@@ -951,17 +958,17 @@
 					}
 					"438100"
 					{
-						"LastPlayed"		"1795065957"
-						"Playtime"		"71435"
+						"LastPlayed"		"1795158134"
+						"Playtime"		"71537"
 						"438100_eula_1"		"1"
 						"438100_eula_2"		"1"
 						"LaunchOptions"		"gamemoderun gamescope -W 2560 -H 1440 -- %command% --enable-avpro-in-proton --enable-hw-video-decoding --affinity=FFFF --process-priority=2 --main-thread-priority=2 "
 						"BadgeData"		"020000000841"
-						"Playtime2wks"		"530"
+						"Playtime2wks"		"632"
 						"perfreporting"
 						{
-							"weekstart"		"1794548324"
-							"secondssubmitted"		"23760"
+							"weekstart"		"1795153171"
+							"secondssubmitted"		"4980"
 						}
 						"PlaytimeDisconnected"		"4"
 					}
@@ -1255,18 +1262,18 @@
 					}
 					"1422450"
 					{
-						"LastPlayed"		"1795138084"
-						"Playtime2wks"		"2444"
-						"Playtime"		"38107"
+						"LastPlayed"		"1795284556"
+						"Playtime2wks"		"2242"
+						"Playtime"		"38279"
 						"cloud"
 						{
 							"last_sync_state"		"synchronized"
 						}
-						"LaunchOptions"		"/home/worcrest/Projects/AppImages/statlocker-companion_amd64.AppImage & gamemoderun gamescope --backend sdl --force-grab-cursor -W 2560 -H 1440 -r 170 -- %command% -vulkan"
+						"LaunchOptions"		"systemd-run --user --scope ~/Projects/AppImages/statlocker-companion_amd64.AppImage >/dev/null 2>&1 & gamemoderun gamescope --backend sdl -W 2560 -H 1440 -r 170 -- %command% -vulkan"
 						"autocloud"
 						{
-							"lastlaunch"		"1795138050"
-							"lastexit"		"1795062155"
+							"lastlaunch"		"1795284490"
+							"lastexit"		"1795284553"
 						}
 						"BadgeData"		"020000000841"
 					}
@@ -1629,7 +1636,7 @@
 						"Playtime"		"85"
 					}
 				}
-				"LastPlayedTimesSyncTime"		"1795065957"
+				"LastPlayedTimesSyncTime"		"1795207235"
 				"PlayerLevel"		"65"
 				"ShaderCacheManager"
 				{
@@ -1641,10 +1648,10 @@
 	}
 	"Offline"
 	{
-		"Ticket"		"08d290b35815bda1ff6a"
-		"Signature"		"77fea96b998d087662f0ec1a0560a7f2fcb01925200d6a9c6216232c2e0ec01bb4d1db2c87e18fd9d9a23959c56c0c10e0e41eb79dbb79c33d22446f12951d7352de5643924d4a320cf864f1ae38924075f0dcde4bb206583c557832dc7d4b667d0e796c7853a357ae0fba086b057b33b06424359cfe01d671e2c5cfe560edd9b724e8eea1f10b311069f3511c9df05a7dc6257b5fbeaef147cb8582aef60b14920dbf076d73e0b4f22a48278b5420082857cc9f33dba2fc3269c6a941bc82532a233e8dc34b81659af935551dcb13723fec2cf6a7cc2299add76c6cf6c0c0aaa004609b7c00dbae87e63de5c4684a61dedb5e083d0d316e561d6428320d9af8"
-		"EncryptedTicket"		"0a207fad4a7b692f48c63a5b41ff39618154dbd536384e9fd594271723c92cfe364112800277fea96b998d087662f0ec1a0560a7f2fcb01925200d6a9c6216232c2e0ec01bb4d1db2c87e18fd9d9a23959c56c0c10e0e41eb79dbb79c33d22446f12951d7352de5643924d4a320cf864f1ae38924075f0dcde4bb206583c557832dc7d4b667d0e796c7853a357ae0fba086b057b33b06424359cfe01d671e2c5cfe560edd9b724e8eea1f10b311069f3511c9df05a7dc6257b5fbeaef147cb8582aef60b14920dbf076d73e0b4f22a48278b5420082857cc9f33dba2fc3269c6a941bc82532a233e8dc34b81659af935551dcb13723fec2cf6a7cc2299add76c6cf6c0c0aaa004609b7c00dbae87e63de5c4684a61dedb5e083d0d316e561d6428320d9af8180622086364cffcf378bb0e2804320898eba945ebbbbdbb"
-		"EncryptedSignature"		"77fea96b998d087662f0ec1a0560a7f2fcb01925200d6a9c6216232c2e0ec01bb4d1db2c87e18fd9d9a23959c56c0c10e0e41eb79dbb79c33d22446f12951d7352de5643924d4a320cf864f1ae38924075f0dcde4bb206583c557832dc7d4b667d0e796c7853a357ae0fba086b057b33b06424359cfe01d671e2c5cfe560edd9b724e8eea1f10b311069f3511c9df05a7dc6257b5fbeaef147cb8582aef60b14920dbf076d73e0b4f22a48278b5420082857cc9f33dba2fc3269c6a941bc82532a233e8dc34b81659af935551dcb13723fec2cf6a7cc2299add76c6cf6c0c0aaa004609b7c00dbae87e63de5c4684a61dedb5e083d0d316e561d6428320d9af8"
+		"Ticket"		"08d290b358154dd1016b"
+		"Signature"		"5dd5e8216f4841f3f04c228a4985af22c1c46ca3da535728e9d7739cb03871f41f319d816adcc78bf33ed502b680962c9e832618402a8729cab9d2521983efd0a216fbf3031a489165ad489ebd9d994c358a561a55f81045cd3ce33f9354dd46edd656be3a4da2583cb7d2fa6f0afb2f2f784d15cc7531e2a7ace6be7b52a2dbb1b9ce8155c4a783e68905e9d003942213f56b924e0d32f0fdb984378681a68176cf551a250c9d17bbf15cb0c84b8ebefec6e9dac2019e74799d294fb5d3f5ad19b56a572784d8ff3babde184c369d0dd359b8bc72cbd46ce0c77c61f7d825afdbea0aa8a22499be020c72cfcfbe82495bc26291641d69a60d8f8e79a6c406e2"
+		"EncryptedTicket"		"0a2033d743cf04fd6bfe6c3f8c0fce79f09c6214d8fe624e4fdfe1f74aa1178f386f1280025dd5e8216f4841f3f04c228a4985af22c1c46ca3da535728e9d7739cb03871f41f319d816adcc78bf33ed502b680962c9e832618402a8729cab9d2521983efd0a216fbf3031a489165ad489ebd9d994c358a561a55f81045cd3ce33f9354dd46edd656be3a4da2583cb7d2fa6f0afb2f2f784d15cc7531e2a7ace6be7b52a2dbb1b9ce8155c4a783e68905e9d003942213f56b924e0d32f0fdb984378681a68176cf551a250c9d17bbf15cb0c84b8ebefec6e9dac2019e74799d294fb5d3f5ad19b56a572784d8ff3babde184c369d0dd359b8bc72cbd46ce0c77c61f7d825afdbea0aa8a22499be020c72cfcfbe82495bc26291641d69a60d8f8e79a6c406e2180622086364cffcf378bb0e2804320830c936ae6518ee12"
+		"EncryptedSignature"		"5dd5e8216f4841f3f04c228a4985af22c1c46ca3da535728e9d7739cb03871f41f319d816adcc78bf33ed502b680962c9e832618402a8729cab9d2521983efd0a216fbf3031a489165ad489ebd9d994c358a561a55f81045cd3ce33f9354dd46edd656be3a4da2583cb7d2fa6f0afb2f2f784d15cc7531e2a7ace6be7b52a2dbb1b9ce8155c4a783e68905e9d003942213f56b924e0d32f0fdb984378681a68176cf551a250c9d17bbf15cb0c84b8ebefec6e9dac2019e74799d294fb5d3f5ad19b56a572784d8ff3babde184c369d0dd359b8bc72cbd46ce0c77c61f7d825afdbea0aa8a22499be020c72cfcfbe82495bc26291641d69a60d8f8e79a6c406e2"
 	}
 	"CloudManager"
 	{
@@ -1670,8 +1677,8 @@
 		"keyboard_layout"		"{\"currentLayout\":0,\"selectedLayouts\":[0]}"
 		"keyboard_initial_location_desktop"		"\"center-bottom\""
 		"keyboard_initial_location_overlay"		"\"center-bottom\""
-		"trendingstore_storage"		"{\"version\":2,\"data\":[{\"appid\":4262460,\"rgAccountIDs\":[7433237],\"totalFriends\":1},{\"appid\":990080,\"rgAccountIDs\":[350358142],\"totalFriends\":1},{\"appid\":4508340,\"rgAccountIDs\":[1844745426],\"totalFriends\":1},{\"appid\":431730,\"rgAccountIDs\":[1079183223,260849456],\"totalFriends\":2},{\"appid\":730,\"rgAccountIDs\":[912492220,166622340,1912583865],\"totalFriends\":3},{\"appid\":2694490,\"rgAccountIDs\":[108949081],\"totalFriends\":1},{\"appid\":1867240,\"rgAccountIDs\":[912492220],\"totalFriends\":1},{\"appid\":236390,\"rgAccountIDs\":[912492220,388935163,463998828],\"totalFriends\":3},{\"appid\":976730,\"rgAccountIDs\":[1844745426],\"totalFriends\":1},{\"appid\":1551360,\"rgAccountIDs\":[1049412136],\"totalFriends\":1},{\"appid\":4704690,\"rgAccountIDs\":[1079183223,1282007708,187864463,1110250938],\"totalFriends\":4},{\"appid\":2218750,\"rgAccountIDs\":[108949081],\"totalFriends\":1},{\"appid\":1030830,\"rgAccountIDs\":[1282007708],\"totalFriends\":1},{\"appid\":223710,\"rgAccountIDs\":[93957330],\"totalFriends\":1},{\"appid\":4001890,\"rgAccountIDs\":[1001756630],\"totalFriends\":1},{\"appid\":381210,\"rgAccountIDs\":[1912583865],\"totalFriends\":1},{\"appid\":1938090,\"rgAccountIDs\":[245583564],\"totalFriends\":1},{\"appid\":284160,\"rgAccountIDs\":[297597013],\"totalFriends\":1},{\"appid\":1623730,\"rgAccountIDs\":[108949081],\"totalFriends\":1},{\"appid\":438100,\"rgAccountIDs\":[1844745426],\"totalFriends\":1},{\"appid\":3065800,\"rgAccountIDs\":[245583564],\"totalFriends\":1},{\"appid\":1151340,\"rgAccountIDs\":[350358142],\"totalFriends\":1},{\"appid\":4461730,\"rgAccountIDs\":[453339266],\"totalFriends\":1},{\"appid\":386940,\"rgAccountIDs\":[1110250938,1079183223],\"totalFriends\":2},{\"appid\":1005300,\"rgAccountIDs\":[163744119],\"totalFriends\":1},{\"appid\":1217060,\"rgAccountIDs\":[245583564],\"totalFriends\":1},{\"appid\":779340,\"rgAccountIDs\":[209843613],\"totalFriends\":1},{\"appid\":1449850,\"rgAccountIDs\":[1282007708],\"totalFriends\":1},{\"appid\":4894860,\"rgAccountIDs\":[1844745426],\"totalFriends\":1},{\"appid\":2141910,\"rgAccountIDs\":[1282007708],\"totalFriends\":1},{\"appid\":3240220,\"rgAccountIDs\":[1282007708],\"totalFriends\":1},{\"appid\":2744940,\"rgAccountIDs\":[1844745426],\"totalFriends\":1},{\"appid\":1144200,\"rgAccountIDs\":[1282007708],\"totalFriends\":1},{\"appid\":286160,\"rgAccountIDs\":[245583564,1110250938],\"totalFriends\":2},{\"appid\":212910,\"rgAccountIDs\":[1519001487],\"totalFriends\":1},{\"appid\":5372440,\"rgAccountIDs\":[453339266],\"totalFriends\":1},{\"appid\":1092790,\"rgAccountIDs\":[1282007708],\"totalFriends\":1},{\"appid\":4255580,\"rgAccountIDs\":[93957330],\"totalFriends\":1},{\"appid\":393380,\"rgAccountIDs\":[166622340],\"totalFriends\":1},{\"appid\":220,\"rgAccountIDs\":[1844745426],\"totalFriends\":1},{\"appid\":2732960,\"rgAccountIDs\":[108949081],\"totalFriends\":1},{\"appid\":22380,\"rgAccountIDs\":[297597013],\"totalFriends\":1},{\"appid\":12120,\"rgAccountIDs\":[297597013],\"totalFriends\":1},{\"appid\":960090,\"rgAccountIDs\":[163744119],\"totalFriends\":1},{\"appid\":218620,\"rgAccountIDs\":[1282007708],\"totalFriends\":1},{\"appid\":2124120,\"rgAccountIDs\":[1079183223],\"totalFriends\":1},{\"appid\":553850,\"rgAccountIDs\":[178804515],\"totalFriends\":1},{\"appid\":4762480,\"rgAccountIDs\":[260849456],\"totalFriends\":1},{\"appid\":409710,\"rgAccountIDs\":[1001756630],\"totalFriends\":1},{\"appid\":2245620,\"rgAccountIDs\":[209843613],\"totalFriends\":1}],\"lastFetchTimeMS\":1795137981897}"
-		"playnextstore_storage"		"{\"nVersion\":3,\"cachedPlayNext\":{\"last_update_time\":1795138017,\"appids\":[632360,377160,990080,22380,611660]},\"rgIgnoredApps\":[]}"
+		"trendingstore_storage"		"{\"version\":2,\"data\":[{\"appid\":4262460,\"rgAccountIDs\":[7433237],\"totalFriends\":1},{\"appid\":990080,\"rgAccountIDs\":[350358142],\"totalFriends\":1},{\"appid\":4508340,\"rgAccountIDs\":[1844745426],\"totalFriends\":1},{\"appid\":730,\"rgAccountIDs\":[912492220,166622340,1912583865],\"totalFriends\":3},{\"appid\":2321470,\"rgAccountIDs\":[108949081],\"totalFriends\":1},{\"appid\":431730,\"rgAccountIDs\":[1079183223,260849456],\"totalFriends\":2},{\"appid\":1938090,\"rgAccountIDs\":[245583564],\"totalFriends\":1},{\"appid\":976730,\"rgAccountIDs\":[1844745426],\"totalFriends\":1},{\"appid\":2694490,\"rgAccountIDs\":[108949081],\"totalFriends\":1},{\"appid\":236390,\"rgAccountIDs\":[912492220,388935163,463998828],\"totalFriends\":3},{\"appid\":4704690,\"rgAccountIDs\":[1079183223,1282007708,187864463,1110250938],\"totalFriends\":4},{\"appid\":2195910,\"rgAccountIDs\":[1844745426],\"totalFriends\":1},{\"appid\":1030830,\"rgAccountIDs\":[1282007708],\"totalFriends\":1},{\"appid\":381210,\"rgAccountIDs\":[1912583865],\"totalFriends\":1},{\"appid\":4001890,\"rgAccountIDs\":[1001756630],\"totalFriends\":1},{\"appid\":284160,\"rgAccountIDs\":[297597013],\"totalFriends\":1},{\"appid\":3065800,\"rgAccountIDs\":[245583564],\"totalFriends\":1},{\"appid\":4461730,\"rgAccountIDs\":[453339266],\"totalFriends\":1},{\"appid\":413150,\"rgAccountIDs\":[245583564],\"totalFriends\":1},{\"appid\":386940,\"rgAccountIDs\":[1110250938,1079183223],\"totalFriends\":2},{\"appid\":2315050,\"rgAccountIDs\":[260849456],\"totalFriends\":1},{\"appid\":1217060,\"rgAccountIDs\":[245583564],\"totalFriends\":1},{\"appid\":779340,\"rgAccountIDs\":[209843613],\"totalFriends\":1},{\"appid\":1449850,\"rgAccountIDs\":[1282007708],\"totalFriends\":1},{\"appid\":2141910,\"rgAccountIDs\":[1282007708],\"totalFriends\":1},{\"appid\":4894860,\"rgAccountIDs\":[1844745426],\"totalFriends\":1},{\"appid\":3240220,\"rgAccountIDs\":[1282007708],\"totalFriends\":1},{\"appid\":2744940,\"rgAccountIDs\":[1844745426],\"totalFriends\":1},{\"appid\":17580,\"rgAccountIDs\":[93957330],\"totalFriends\":1},{\"appid\":3851950,\"rgAccountIDs\":[1844745426],\"totalFriends\":1},{\"appid\":4310000,\"rgAccountIDs\":[1844745426],\"totalFriends\":1},{\"appid\":1144200,\"rgAccountIDs\":[1282007708],\"totalFriends\":1},{\"appid\":1091500,\"rgAccountIDs\":[121995499,1282007708],\"totalFriends\":2},{\"appid\":1973530,\"rgAccountIDs\":[1844745426],\"totalFriends\":1},{\"appid\":212910,\"rgAccountIDs\":[1519001487],\"totalFriends\":1},{\"appid\":5372440,\"rgAccountIDs\":[453339266],\"totalFriends\":1},{\"appid\":1250410,\"rgAccountIDs\":[204542567],\"totalFriends\":1},{\"appid\":1092790,\"rgAccountIDs\":[1282007708],\"totalFriends\":1},{\"appid\":4255580,\"rgAccountIDs\":[93957330],\"totalFriends\":1},{\"appid\":393380,\"rgAccountIDs\":[166622340],\"totalFriends\":1},{\"appid\":220,\"rgAccountIDs\":[1844745426],\"totalFriends\":1},{\"appid\":17570,\"rgAccountIDs\":[1110250938],\"totalFriends\":1},{\"appid\":22380,\"rgAccountIDs\":[297597013],\"totalFriends\":1},{\"appid\":12120,\"rgAccountIDs\":[297597013],\"totalFriends\":1},{\"appid\":444200,\"rgAccountIDs\":[204542567],\"totalFriends\":1},{\"appid\":553850,\"rgAccountIDs\":[178804515],\"totalFriends\":1},{\"appid\":960090,\"rgAccountIDs\":[163744119],\"totalFriends\":1},{\"appid\":2732960,\"rgAccountIDs\":[108949081],\"totalFriends\":1},{\"appid\":218620,\"rgAccountIDs\":[1282007708],\"totalFriends\":1},{\"appid\":2124120,\"rgAccountIDs\":[1079183223],\"totalFriends\":1}],\"lastFetchTimeMS\":1795281229690}"
+		"playnextstore_storage"		"{\"nVersion\":3,\"cachedPlayNext\":{\"last_update_time\":1795281890,\"appids\":[632360,22380,377160,990080]},\"rgIgnoredApps\":[]}"
 		"ChatStorePopupState_185387090"		"{\"window_restore_details\":\"1&x=1118&y=430&w=740&h=650\",\"bFriendsListVisible\":false,\"always_restore\":false,\"bFriendsListCollapsed\":false}"
 		"GameInvites_185387090"		"{\"dismisstimes\":{\"187864463\":1794274345,\"1079183223\":1794886784}}"
 		"FriendStoreLocalPrefs_185387090"		"{\"ePersonaState\":1,\"strNonFriendsAllowedToMsg\":\"\"}"
@@ -1724,7 +1731,7 @@
 		"1867240"		"00696e7465726e616c00016c616e677561676500656e676c697368000808"
 		"4809930"		"00696e7465726e616c00016c616e677561676500656e676c697368000808"
 	}
-	"RecentLocalPlayedGameIDs"		"c4d30300000000004ea2ff6a0000000072b41500000000001fa2ff6a0000000054af0600000000006588fe6a00000000b2c947000000000062dffb6a00000000e87d1c000000000047f0a66a0000000000960000000000009bab946a00000000e8cd1c0000000000d6d4776a00000000a8180d000000000096d0776a0000000000000000b9ca776ae6a046000000000000000000bed0776a70ff1200000000000000000053d7a66a2e4d11000000000000000000dd2f936aba680f0000000000000000009d20f56a54af0600000000001207f06ab2c94700000000001200f06a0e189a6a24cb060000000000bce4946a1f0e916a7ed1370000000000c8d7776ab3d0776ac0fc100000000000a7d0776ab5c54d6a5a1d29000000000035044b6a"
+	"RecentLocalPlayedGameIDs"		"72b415000000000049de016b00000000c4d303000000000049de016b00000000809c01000000000043b0006b0000000054af06000000000076f0ff6a00000000b2c947000000000062dffb6a00000000e87d1c000000000047f0a66a0000000000960000000000009bab946a00000000e8cd1c0000000000d6d4776a00000000a8180d000000000096d0776a0000000000000000b9ca776ae6a046000000000000000000bed0776a70ff1200000000000000000053d7a66a2e4d11000000000000000000dd2f936aba680f0000000000000000009d20f56a54af0600000000001207f06ab2c94700000000001200f06a0e189a6a24cb060000000000bce4946a1f0e916a7ed1370000000000c8d7776ab3d0776ac0fc100000000000a7d0776ab5c54d6a5a1d29000000000035044b6a"
 	"depots"
 	{
 		"1628351"
@@ -2302,12 +2309,12 @@
 	}
 	"CloudKey"		"010000005a240c0ad463ccf257cb3a6b58ca309d6b6f92b517300fdbd9fc68d773f1edb34d84d85c"
 	"CloudKeyCRC"		"1980493752"
-	"FavoriteServersLastUpdateTime"		"1795137982"
+	"FavoriteServersLastUpdateTime"		"1795281230"
 	"nettickets"
 	{
-		"1422450"		"01000000db84a064564949187725ccff1e56757296ca909e30f9d47005f0fd3fcc6f11f63c277450e340f3cbf5232ec608f271ad85834ad4e9a862f0636101a497b10927b0c3af5263c5b8b4d3c1510e75b58850ce059dc8cc58a6682bd9cc1468b6e7bc9e5f7110f3ce688de2c6fa21daa14f0cdcec996b29a507aaa3cde11a00e00c3f6d8ce8c7639cc2bbff8af02655f734f6c156319edbad24eb6679d9db1263d0efcfc0551b93557478544dd81c7462e4d69abd1acd432c526feeedabc378e257b5933c1a9937e747c0b9b2b175192ce8dd90cd13ea32849810a3e8ebec8905ad68352743cbb52e4ade3c7c98b97f4bf0f953df5806e90ac587"
+		"1422450"		"01000000db849896378f8e6726ffb53b01ff5a55d29ea727d30f6318371d69486dbac955cc63e07e5ea4a8cb1b9b7b83237b972b1c0a2a898410fca7c615bca3879a564ba5f7af5263c5b8b4d3c1513687d44e97b15447b108470f470c9d9823d155110bf66d9c84846fbd554136be21daa14f0cdcec996b299a8555a2cdde6405e00c3f6d8ce8c7639cc2bbff8af02655f734f6c156319edbad24eb6679d9db1263d0efcfc0551b93557478544dd81c7462e4d69abd1acdcff9df73219a242ac61c62e42bdb43bf1c7607cade59e4893221381c50fa921362c9bed85cb4470a2727517fdd106ae2c0b812d627a1818851d9b97d22b6140f294395cd"
 		"250820"		"01000000db84c29cbaf26436a02ba34db6c191647f229376e85c6d4e1dad38efd2dae56249627d183a09a8c859caf551c656cc0a6fddb0c2a778be70c5cf9a98d37af73ef6e0af5263c5b8b4d3c1516c8d59337de0d293a77ef0318c3d302417806e4205a0472cd523d0dd7976b3bf21daa14f0cdcec996b2985cc05a3cdc12355e10c0922d5e8c7639cc2bbff8af02655f734f6c156319edbad24eb6679d9db1263d0efcfc0551b93557478544dd81c7462e4d69abd1acdb2e466f691d240fec10aabc6b8b4420410d660fcca462eb29cbf8de59923b731afc0cfb2201d045f929bbea70b714d566e0624f003f9421e0a82b5715492740ed2f94351"
-		"105600"		"01000000db8441da418d7dec3c8479ab7d792da88232ff70ae6ce8f2077146c3d1ab70c830d626f8138260c2bcdc8f5328781b6c6cb172c4bfd1d309905dd34dd078687e3228af5263c5b8b4d3c151efcba24c643a4e3c7d983b8930f1cd347b862872801c5df0ab0fd3acecdcca0b21daa14f0cdcec996b29a496f2a3cde069a8e10c4d3cdce8c7639cc2bbff8af02655f734f6c156319edbad24eb6679d9db1263d0efcfc0551b93557478544dd81c7462e4d69abd1acd89a6d3ea0b10d6271cec8f054868ff4c53f6c3b501be8c5ba8ccbfa5616c8a6fad10de2390dbaeb58d5f80f5a51020d6f479be823062def1db70b8d2eca3b30f04288e60"
+		"105600"		"01000000db845c436ec5352930a6760fb297f25e4fcf223c8a07e32bab72e13bf64a273009040bf8c2954b666ebf7d897efd57afc27263c0fad27027aa94b2fdfd567d933cc7af5263c5b8b4d3c151f2528d042cff421e723cf467ef0700c9a6ca0c198bc5f1f30cf7f44dbb24f3d921daa14f0cdcec996b298fff54a2cdcb5202e00c4d3cdce8c7639cc2bbff8af02655f734f6c156319edbad24eb6679d9db1263d0efcfc0551b93557478544dd81c7462e4d69abd1acd1e2b2225611abe76a106ec3242bb196a454d665440633759a5fd3e13827091d08162ac1b58c104d804077e3bef8c7bc250b74280311d72dee3c4682fcde7a30b58b4be2e"
 		"1133870"		"01000000db8482de0c260bebf7f1432d0fb6b921ea853e260d469d10f8701b91a36214a3d48e2d872c9ded7ea9439c612ada9cdc677e38bd155d7d9862b0e2c176f45d2a959caf5263c5b8b4d3c1512ccfefe7123d8549471e4946a478a583bad08b58f5fea2f1f65da16588b72e5321daa14f0cdcec996b29d756cea3cd93a99de10c631f9fe8c7639cc2bbff8af02655f734f6c156319edbad24eb6679d9db1263d0efcfc0551b93557478544dd81c7462e4d69abd1acd22adf3ec5a5fc2ec9913ce44c24c4ece767350d1c56f31dbfcd621c8f8e1527179450235982915065df094726f393559f94040f1a35b0c7529cbc8abe9951a0d77b1bad8"
 	}
 	"apps"
@@ -2315,6 +2322,10 @@
 		"250820"
 		{
 			"OverlayAppEnable"		"1"
+		}
+		"1422450"
+		{
+			"OverlayAppEnable"		"0"
 		}
 	}
 	"GameRecording"
