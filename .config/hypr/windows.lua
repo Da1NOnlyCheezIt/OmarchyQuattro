@@ -1,9 +1,9 @@
 hl.window_rule({
-    match = {
-        initial_class = ".*([Gg]amescope|[Dd]eadlock|[Tt]erraria).*"
-    },
-    workspace = 11,
-    no_follow_mouse = true,
+	match = {
+		initial_class = ".*([Gg]amescope|[Dd]eadlock|[Tt]erraria).*"
+	},
+	workspace = 11,
+	no_follow_mouse = true,
 })
 hl.window_rule({match = {initial_title = ".*(Hulu).*"},workspace = 11})
 hl.window_rule({match = {initial_title = [[([Ss]team)]]},tile = true,workspace = "3 silent"})
