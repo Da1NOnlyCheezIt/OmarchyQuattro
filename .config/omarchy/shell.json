@@ -1,7 +1,7 @@
 {
   "bar": {
     "background": "glassy",
-    "id": "io.github.djseng.lockdown",
+    "id": "io.github.da1nonlycheezit.config-lock",
     "layout": {
       "center": [
         {
@@ -14,6 +14,9 @@
       "centerBegin": [
         {
           "id": "omarchy.indicators"
+        },
+        {
+          "id": "io.github.da1nonlycheezit.config-lock"
         }
       ],
       "centerEnd": [
@@ -32,7 +35,7 @@
           "id": "omarchy.menu"
         },
         {
-          "id": "io.github.djseng.lockdown"
+          "id": "omarchy.workspaces"
         }
       ],
       "right": [
@@ -66,9 +69,13 @@
     "position": "top"
   },
   "disabledPlugins": [
-    "omarchy.dock",
-    "omarchy.notifications"
+    "omarchy.dock"
   ],
+  "dock": {
+    "pinned": [
+      "com.microsoft.VSCode"
+    ]
+  },
   "idle": {
     "lock": 1800,
     "screensaver": 300
