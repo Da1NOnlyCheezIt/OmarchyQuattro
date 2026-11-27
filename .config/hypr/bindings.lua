@@ -1,6 +1,6 @@
 -- Application bindings
 hl.bind("SUPER + SHIFT + ALT + CTRL + S",hl.dsp.exec_cmd("omarchy-launch-or-focus spotify"), { description = "Music" })
-hl.bind("SUPER + SHIFT + ALT + CTRL + O", hl.dsp.exec_cmd([[omarchy-launch-or-focus ^obs$ "uwsm-app -- obs --startreplaybuffer"]]), { description = "OBS" })
+hl.bind("SUPER + SHIFT + ALT + CTRL + O", hl.dsp.exec_cmd([[omarchy-launch-or-focus ^obs$ "uwsm-app -- flatpak run com.obsproject.Studio --startreplaybuffer"]]), { description = "OBS" })
 hl.bind("SUPER + N", hl.dsp.exec_cmd("omarchy-launch-or-focus omacalc"), { description = "Calculator" })
 -- Unbinds of default binds
 hl.unbind("CTRL + ALT + DELETE")

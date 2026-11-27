@@ -1,21 +1,19 @@
 {
   "bar": {
     "background": "glassy",
+    "id": "io.github.djseng.lockdown",
     "layout": {
       "center": [
         {
-          "id": "omarchy.clock",
           "format": "ddd d MMM HH:mm",
           "formatAlt": "d MMMM 'W'ww yyyy",
+          "id": "omarchy.clock",
           "verticalFormat": "HH\n—\nmm"
         }
       ],
       "centerBegin": [
         {
           "id": "omarchy.indicators"
-        },
-        {
-          "id": "worcrest.config-lock"
         }
       ],
       "centerEnd": [
@@ -34,7 +32,7 @@
           "id": "omarchy.menu"
         },
         {
-          "id": "worcrest.workspaces"
+          "id": "io.github.djseng.lockdown"
         }
       ],
       "right": [
@@ -65,23 +63,16 @@
       ],
       "tray": []
     },
-    "position": "top",
-    "id": "worcrest.bar"
+    "position": "top"
   },
+  "disabledPlugins": [
+    "omarchy.dock",
+    "omarchy.notifications"
+  ],
   "idle": {
     "lock": 1800,
     "screensaver": 300
   },
-  "plugins": [
-    {
-      "id": "worcrest.dock"
-    }
-  ],
-  "version": 1,
-  "disabledPlugins": [
-    "omarchy.dock"
-  ],
-  "cloneSourceRestores": [
-    "worcrest.dock"
-  ]
+  "plugins": [],
+  "version": 1
 }

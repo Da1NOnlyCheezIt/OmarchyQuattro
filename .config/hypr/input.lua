@@ -7,7 +7,7 @@ hl.config({
 	input = {
 	-- Use multiple keyboard layouts and switch between them with Left Alt + Right Alt.
 		kb_layout = "us",
---		kb_options = "caps:menu",
+		--kb_options = "caps:menu",
 		scroll_method = "on_button_down",
 		scroll_button = 274,
 		scroll_factor = 2,
